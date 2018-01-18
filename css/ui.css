@@ -1,0 +1,318 @@
+@CHARSET "UTF-8";
+
+
+
+/*font*/
+@font-face{
+  font-family: 'BMDOHYEON';
+  src: url(../data/BMDOHYEON_ttf.ttf) format('truetype');
+}
+body{
+  font-family: BMDOHYEON;
+}
+
+/*LoadingBar : it must needs media query */
+.loadingContain{position:absolute;bottom:200px;left:900px;display:none;
+  width:250px;height:200px;z-index:1;margin:0px auto 0;}
+.loadingContain >div{position:absolute;bottom:200px;background-color: #3498db; width:30px;height:200px;}
+.bar1{left:7px;  -webkit-animation:barAni1 1s infinite; animation: barAni1 1s infinite;}
+.bar2{left:37px; -webkit-animation:barAni2 1s infinite; animation: barAni2 1s infinite; }
+.bar3{left:67px;-webkit-animation:barAni3 1s infinite; animation: barAni3 1s infinite;}
+.bar4{left:97px;-webkit-animation:barAni4 1s infinite; animation: barAni4 1s infinite;}
+.bar5{left:127px;-webkit-animation:barAni5 1s infinite; animation: barAni5 1s infinite;}
+.bar6{left:157px;-webkit-animation:barAni6 1s infinite; animation: barAni6 1s infinite;}
+
+@-webkit-keyframes barAni1 {
+  0%, 100% {height:80px;background: #2d64FF;}
+   16.67%  {height:200px;background: #2d64FF;}
+   33.33%  {height:80px;background: #2d64FF;}
+   50%     {height:200px;background: #2d64FF;}
+   66.67%  {height:80px;background: #2d64FF;}
+   83.34%  {height:200px;background: #2d64FF;}
+}
+
+@keyframes barAni1 {
+  0%, 100% {height:80px;background: #2d64FF;}
+   16.67%  {height:200px;background: #2d64FF;}
+   33.33%  {height:80px;background: #2d64FF;}
+   50%     {height:200px;background: #2d64FF;}
+   66.67%  {height:80px;background: #2d64FF;}
+   83.34%  {height:200px;background: #2d64FF;}
+}
+
+@-webkit-keyframes barAni2 {
+  0%, 100%{height:100px; background: #5652FF;}
+   16.67% {height:30px;background: #5652FF;}
+   33.33% {height:120px;background: #5652FF;}
+   50%    {height:100px;background: #5652FF;}
+   66.67% {height:200px;background:#5652FF;}
+   83.34% {height:150px;background: #5652FF;}
+}
+
+@keyframes barAni2 {
+  0%, 100%{height:100px; background: #5652FF;}
+   16.67% {height:30px;background: #5652FF;}
+   33.33% {height:120px;background: #5652FF;}
+   50%    {height:100px;background: #5652FF;}
+   66.67% {height:200px;background:#5652FF;}
+   83.34% {height:150px;background: #5652FF;}
+}
+
+@-webkit-keyframes barAni3 {
+  0%, 100% {height:150px;background: #6F48FF;}
+   16.67%  {height:200px;background: #6F48FF;}
+   33.33%  {height:100px;background: #6F48FF;}
+   50%     {height:30px;background: #6F48FF;}
+   66.67%  {height:120px;background:#6F48FF;}
+   83.34%  {height:100px;background: #6F48FF;}
+}
+
+@keyframes barAni3 {
+  0%, 100% {height:150px;background: #6F48FF;}
+   16.67%  {height:200px;background: #6F48FF;}
+   33.33%  {height:100px;background: #6F48FF;}
+   50%     {height:30px;background: #6F48FF;}
+   66.67%  {height:120px;background:#6F48FF;}
+   83.34%  {height:100px;background: #6F48FF;}
+}
+
+@-webkit-keyframes barAni4 {
+  0%, 100% {height:200px;background: #a331FF;}
+   16.67%  {height:10px;background:#a331FF; }
+   33.33%  {height:150px;background: #a331FF;}
+   50%     {height:30px;background:#a331FF; }
+   66.67%  {height:180px;background:#a331FF;}
+   83.34%  {height:20px;background:#a331FF; }
+}
+
+@keyframes barAni4 {
+  0%, 100% {height:200px;background: #a331FF;}
+   16.67%  {height:10px;background:#a331FF; }
+   33.33%  {height:150px;background: #a331FF;}
+   50%     {height:30px;background:#a331FF; }
+   66.67%  {height:180px;background:#a331FF;}
+   83.34%  {height:20px;background:#a331FF; }
+}
+
+@-webkit-keyframes barAni5 {
+  0%, 100% {height:180px;background: #b42aFF;}
+   16.67%  {height:20px;background:#b42aFF; }
+   33.33%  {height:180px;background: #b42aFF;}
+   50%     {height:20px;background:#b42aFF; }
+   66.67%  {height:180px;background:#b42aFF;}
+   83.34%  {height:180px;background:#b42aFF; }
+}
+
+@keyframes barAni5 {
+  0%, 100% {height:180px;background: #b42aFF;}
+   16.67%  {height:20px;background:#b42aFF; }
+   33.33%  {height:180px;background: #b42aFF;}
+   50%     {height:20px;background:#b42aFF; }
+   66.67%  {height:180px;background:#b42aFF;}
+   83.34%  {height:180px;background:#b42aFF; }
+}
+
+@-webkit-keyframes barAni6 {
+  0%, 100% {height:100px;background: #c224FF;}
+   16.67%  {height:200px;background:#c224FF; }
+   33.33%  {height:100px;background: #c224FF;}
+   50%     {height:200px;background:#c224FF; }
+   66.67%  {height:100px;background:#c224FF;}
+   83.34%  {height:200px;background:#c224FF; }
+}
+
+@keyframes barAni6 {
+  0%, 100% {height:100px;background: #c224FF;}
+   16.67%  {height:200px;background:#c224FF; }
+   33.33%  {height:100px;background: #c224FF;}
+   50%     {height:200px;background:#c224FF; }
+   66.67%  {height:100px;background:#c224FF;}
+   83.34%  {height:200px;background:#c224FF; }
+}
+
+/* fixed top header 및 menu */
+.topbar{background-color: #001640; width:100%; height:150px;margin:0px;position:absolute;top:0px;left:0px;}
+/*top right에 해상도가 바뀌면 나타나는 버튼*/
+.acodiBtn{display:none;position:fixed;top:20px;right:10px;width:64px;height:64px; background: url("../img/hamberg.png") no-repeat center; border-style: none;}
+/*top menu button bar*/
+.topmenu{display: block;list-style-type: none; margin:0; padding:0; overflow:hidden;position:fixed;top:20px;width:100%; right:20px;}
+/*top left Log button : fixed*/
+.topLogo{position:absolute;top:8px;left:5px; width:144px;height:95px; background: url("../img/logo.png") no-repeat center; border-style: none;}
+.topLogo:hover{background-color: #FFFFFF; color:#001640;}
+
+/*top menu button*/
+.topMBtn{display: block; float:right; color:white;font-family: "BMDOHYEON", sans-serif;text-align: center; font-weight: bold;padding:14px 16px; text-decoration: none; font-size:20px;}
+.topMBtn:hover{background-color: #FFFFFF; color:#001640;}
+
+/*product top*/
+.productText{position:absolute; left:900px; top:30px;font-family: "BMDOHYEON", sans-serif;text-align: center; font-weight: bold; font-size:40px;color:white;}
+.gotoIndex{position:absolute; top:20px; left:30px;width:50px;height: 50px;background: url("../img/next.png") no-repeat center;border-style:none;}
+
+/*Privacy policy top*/
+.privacyT{position:absolute; left:900px; top:30px;font-family: "BMDOHYEON", sans-serif;text-align: center; border:none; font-weight: bold; font-size:40px;color:white;}
+/*terms top*/
+.topSubject{position:absolute; left:900px; top:30px;font-family: "BMDOHYEON", sans-serif;text-align: center; border:none; font-weight: bold; font-size:40px;color:white;}
+
+/*contents 영역*/
+body{overflow: hidden;}
+.contentsArea{display: inline-block; background-color: #F4FFFF;height:849px; width:100%;position:absolute;top:100px;left:0px;}
+/*product contents*/
+/*.productContents{display: inline-block; background-color: #F4FFFF;height:800px; width:100%;position:absolute;top:100px;left:0px;} */
+.productContents{display: inline-block; background-color: #F4FFFF;height:849px; width:100%;position:absolute;top:100px;left:0px;}
+
+/*scrollbar exploer버젼 vs chrome vs safari 버젼 */
+/*scroll영역*/
+.contentsScroll{position:absolute;top:100px;height:849px;overflow-y:scroll;overflow-x: hidden;}
+/*product scroll*/
+/*.productScroll{position:absolute;left:1902px;top:0px;height:700px;overflow-y:scroll;overflow-x: hidden;} */
+.productScroll{position:absolute;top:100px;height:849px;overflow-y:scroll;overflow-x: hidden;}
+
+
+/*Content 안의 Area*/
+.basicArea{display:inline-block;background-color:#FFFFFF;width:100%;height:845px;}
+.companyArea{display: inline-block; background-color:#FFFFFF; position: absolute;top:845px;left:0px; width:100%; height:845px;}
+.productArea{display: inline-block; position: absolute;top:1690px;left:0px; background-color:#001640; width:100%; height:845px;}
+.customerArea{display: inline-block;position:absolute;top:2535px;left:0px; background-color:#FFFFFF; width:100%; height:845px;}
+.coworkArea{display: inline-block; position:absolute;top:3380px;left:0px; background-color:#001640; width:100%; height:845px;}
+
+/*product contents*/
+.productPicture{display:inline-block;background-color:#FFFFFF;width:100%; height:845px;position:absolute;top:0px;left:0px;}
+.productVideo{display:inline-block;background-color:#001640;width:100%;height:845px;position:absolute;top:845px;left:0px;}
+
+/*product picture grid*/
+.pictureGrid1{display:inline-block;background-color:#FFFFFF;width:845px;height:845px;position:absolute;top:0px;left:106px;}
+.pictureGrid2{display:inline-block;background-color:#FFFFFF;width:845px;height:845px;position:absolute;top:0px;left:950px;}
+/*product Image inside Grid*/
+.pictureGrid1 >button{width:422px;height:422px;border:none;}
+.productImg1{position:absolute;top:0px;left:0px;background:url("../img/pictureImg/product1.png") no-repeat center;}
+.productImg2{position:absolute;top:0px;left:422px;background:url("../img/pictureImg/product2.png") no-repeat center;}
+.productImg3{position:absolute;top:422px;left:0px;background:url("../img/pictureImg/product3.png") no-repeat center;}
+.productImg4{position:absolute;top:422px;left:422px;background:url("../img/pictureImg/product4.png") no-repeat center;}
+
+.pictureGrid2 >button{width:422px;height:422px;border:none;}
+
+.productImg5{position:absolute;top:0px;left:0px;background:url("../img/pictureImg/product5.png") no-repeat center;}
+.productImg6{position:absolute;top:0px;left:422px;background:url("../img/pictureImg/product6.png") no-repeat center;}
+.productImg7{position:absolute;top:422px;left:0px;background:url("../img/pictureImg/product7.png") no-repeat center;}
+.productImg8{position:absolute;top:422px;left:422px;background:url("../img/pictureImg/product8.png") no-repeat center;}
+
+/*product video*/
+.playVideo{position:absolute;top:1px;left:300px;display:block;width:1300px;height:800px;}
+
+/*cleeque : iframe, phonegap은 다르게 */
+.cleequeFrame{top:100px;left:0px;width:100%;height:100%;}
+
+/*product image modal window*/
+.imageModal{display:none;background-color:#000;opacity: 1;width:100%;height:100%;position:fixed;left:0px;top:0px;z-index:3px;padding-top:0px;}
+.modalImage{display:inline-block; background-image: url("../img/testPicture1.png") no-repeat center;width:422px;height:422px;position:fixed; top: 100px; left:800px;}
+.modalText{font-family: "BMDOHYEON", sans-serif;text-align: center; font-weight: bold; font-size:50px;color:white;position:fixed; top:600px; left:900px;}
+
+/*footer*/
+.footerArea{display:inline-block; background-color:#1d438d; position:absolute;top:4225px; left:0px;width:100%; height:250px;}
+/*product footer Area*/
+/*.productFooter{display:inline-block; background-color:#001640; position:absolute;top:845px; left:0px;width:100%; height:100px;}*/
+
+/*BasicArea image slide*/
+.imageFile{width:100%;height:845px;position:relative;top:0px;animation:animatetop 1.5s}
+@keyframes animatetop{from{opacity:0} to{opacity:1}}
+
+
+/*social network button*/
+.facebookBtn{position:fixed; top:850px; right:290px;width:64px;height:64px;background: url("../img/facebook.png") no-repeat center;}
+.githubBtn{position:fixed; top:850px; right:200px; width:64px;height:64px;background: url("../img/gitHub.png") no-repeat center;}
+.blogBtn{position:fixed; top:850px; right:118px; width:64px;height:64px;background: url("../img/blog.png") no-repeat center;}
+
+/*left side bar*/
+.leftSideBar{display:none;position:relative;top:150px;left:-17px;width:300px;height:200px;background-color:#FFFFFF;padding:0px 0px;margin:8px 8px;border-radius: 25px;}
+
+/*button list in left side bar*/
+.leftSideCompany{display: block; background-color:#001640;width:300px;height:50px;border-radius: 20px 20px 0px 0px; text-align: center;}
+.leftSideCustomer{display:block; background-color:#FFFFFF;width:300px;height:50px;text-align: center;}
+.leftSideCowork{display:block; background-color:#001640;width:300px;height:50px; text-align: center;}
+.leftSideProduct{display:block; background-color:#FFFFFF; width:300px;height:50px; border-radius: 0px 0px 20px 20px; text-align: center;}
+.leftSideTextA{position:relative;top:20px;color: #FFFFFF;font-weight: bold;}
+.leftSideTextA:hover{background-color: #FFFFFF;color:#001640;}
+.leftSideTextB{position:relative;top:20px;color: #001640;font-weight: bold;}
+.leftSideTextB:hover{background-color: #001640;color:#FFFFFF;}
+
+/*introduce company block*/
+.companyMotto{display:inline-block;background-color:#001640;width:100%;height:160px;}
+/*company motto text */
+.motto1{display: none;position:absolute;top:30px; left:800px; text-align: center; font-size: 70px; color:#FFFFFF; font-weight: bold; -webkit-animation: textAni 2s infinite; -webkit-animation-timing-function:ease;  animation: textAni 2s infinite; animation-timing-function: ease;}
+.motto2{display: none; position:absolute;top:30px; left:800px; text-align: center; font-size: 70px; color:#FFFFFF; font-weight: bold; -webkit-animation: textAni 2s infinite; -webkit-animation-timing-function:ease;  animation: textAni 2s infinite; animation-timing-function: ease;}
+.motto3{display: none; position:absolute;top:30px; left:800px; text-align: center; font-size: 70px; color:#FFFFFF; font-weight: bold; -webkit-animation: textAni 2s infinite; -webkit-animation-timing-function:ease;  animation: textAni 2s infinite; animation-timing-function: ease;}
+/*text animation keyframe*/
+@-webkit-keyframes textAni{from{font-size: 70px; top:-2px; opacity: 1} to{font-size: 80px; top: 30px; opacity: 0}}
+@keyframes textAni{from{font-size:70px; top:-2px; opacity:1} to{ font-size:80px; top:30px; opacity: 0}}
+
+/*introduce team blcok*/
+.companyExmplain{display:inline-block;position:relative;top:0px;background-color:#f1f1f1;width:100%;height:160px;}
+/*.explainT{position:absolute;top:40px;left:350px;font-size: 25px; text-align: center;font-weight: bold; color:#757575; padding:10px 10px 10px 10px;}*/
+.companyExmplain >span{position:relative;top:40px;left:550px;font-size: 30px; text-align: center;font-weight: bold; color:#757575;}
+.explainT{padding:10px 10px 10px 10px;}
+
+
+/*Google map*/
+.addressMap{display:inline-block;width:600px; height:550px;background-color:#c224ff;position:absolute;left:250px;top:280px;}
+/*Detail information*/
+.detailPaypulse{position:relative;top:150px;left:900px;display:inline-block;width:700px; height:230px;background-color:#f1f1f1;}
+.detailPaypulse >span{
+  position:relative;
+  font-size: 20px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;
+}
+.detailAddress{top:20px;left:20px;}
+.find{top:22px;left:20px;}
+.whoIsCEO{top:24px;left:20px;}
+.phone{top:26px;left:20px;}
+.email{top:28px;left:20px;}
+
+/*Product Image Button*/
+/*products는 추후 slide 처리 될 부분 */
+.products{display:inline-block;width:100%;height:600px;position:relative;top:100px;}
+.product1{display:inline-block;width:600px;height:600px;background-color:#FFFFFF;position:relative;top:0px;left:250px;}
+.product2{display:inline-block;width:600px;height:600px;background-color:#b42aff;position:relative;top:0px;left:500px;}
+/*image button 처리*/
+.mr9270s{display:inline-block;width:600px;height:600px;background: url("../img/mr9270s.png") no-repeat center; border-style: none; border:none;}
+.medida{display:inline-block;width:600px;height:600px;background: url("../img/medida.png") no-repeat center; border-style: none; border:none;}
+
+.overlay{position:absolute; bottom:100%; left: 0%; background-color: #008CBA; overflow:hidden; width: 100%;height:0; transition: .5s ease;}
+.product1:hover .overlay{bottom: 0; height: 100%;}
+.product2:hover .overlay{bottom: 0; height: 100%;}
+
+.text{white-space: nowrap; color:white; font-size: 30px; font-weight: bold; position:absolute; overflow: hidden; top:50%;left:50%; transform: translate(-50%,-50%); -ms-transform: translate(-50%, -50%);}
+
+/*customer area form */
+.contractT1 {display:inline-block;color:#001640;font-family:"BMDOHYEON", sans-serif;text-align: center; font-weight: bold; font-size:60px; position: absolute; top:50px;left:800px;}
+.contractT2 {display:inline-block;color:#001640;font-family:"BMDOHYEON", sans-serif;text-align: center; font-size:20px; position: absolute; top:180px; left:650px;padding-top:10px;}
+.contractForm{display:inline-block;position:absolute; left:450px; top:300px;width:1000px;height:350px;}
+input[type=text]{
+  width: 100%;padding:12px 20px; margin:8px 0;
+  box-sizing: border-box; border:none;border-bottom:2px solid #001640;
+}
+
+textarea{width:100%; height:300px;
+        padding:12px 20px; box-sizing:border-box;
+        border: 2px solid #001640;border-radius:4px;
+        background-color: #f8f8f8; font-size:16px; resize: none;}
+
+.msendBtn {width:100%;height:50px; border:none;background-color:#ff4500 ;color:#ffffff;}
+
+/*cowork area*/
+.coworkT{display:inline-block;color:#FFFFFF;font-family:"BMDOHYEON", sans-serif;text-align: center; font-weight: bold; font-size:50px; position: absolute; top:50px;left:900px;}
+.coworkImg{display:inline-block;width:1200px;height:450px;background-color:#FFFFFF;position:relative;top:150px;left:400px;}
+.coworkImg >img{width:1200px;height:450px;}
+.chooseImg{display:inline-block;background-color:#001640;width:830px;height:128px;position:absolute;bottom:99px;left:600px;margin:2px;}
+.chooseImg >img{opacity: 1.0; filter:alpha(opacity=50);width:200px;height:120px;outline-style:none;border:none;}
+.chooseImg >img:hover{opacity: 0.5; filter:alpha(opacity=100);}
+
+.cleqee{position:absolute;top:740px;left:750px;width:400px;height:80px;background-color:#f4511e;border:none;border-radius:4px;color:white;padding:15px 32px;text-align:center; text-decoration:none;
+          display:inline-block;font-size:100px;font-weight: bold;font-size:16px;margin:4px 2px; -webkit-transition-duration:0.4s; transition-duration:0.4s;}
+.cleqee:hover {box-shadow: 0 12px 16px 0 rgba(1,1,1,0.5), 0 17px 50px 0 rgba(1,1,1,1);}
+
+/*footer contents*/
+.footerC{display:inline-block;color:#FFFFFF;font-family:"BMDOHYEON", sans-serif;text-align: center; font-weight: bold; font-size:15px; position: absolute; top:50px;left:700px;}
+.privacy{display:inline-block;color:#FFFFFF;font-family:"BMDOHYEON", sans-serif;text-align: center; font-weight: bold; font-size:15px; position: absolute; top:160px;left:800px;}
+.terms{display:inline-block;color:#FFFFFF;font-family:"BMDOHYEON", sans-serif;text-align: center; font-weight: bold; font-size:15px; position: absolute; top:160px;left:1000px;}
+.copyright{display:inline-block;color:#FFFFFF;font-family:"BMDOHYEON", sans-serif;text-align: center; font-weight: bold; font-size:15px; position: absolute; top:200px;left:700px;}

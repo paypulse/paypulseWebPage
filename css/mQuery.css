@@ -1,0 +1,2871 @@
+/*모바일 해상도 영역에서의 처리 */
+/*resolution 360 by 640 :black berry, galaxy note2,3,s3,Lumia950,nexus5
+                        Galaxy s5  */
+@media screen and (device-width:360px) and (device-height:640px)
+{
+  /*top button hide, acodien button show */
+  .acodiBtn{display: block! important;}
+  .topmenu{display: none ! important;}
+
+  /*Press acodien, show left side bar : width=> 150px*/
+  .leftSideBar{width:150px;top:100px; height:200px;}
+  /*left side bar contents*/
+  .leftSideCompany{width:150px;height:50px;}
+  .leftSideCustomer{width:150px;height:50px;}
+  .leftSideCowork{width:150px;height:50px;}
+  .leftSideProduct{width:150px;height:50px;}
+  .leftSideTextA{top:20px;}
+  .leftSideTextB{top:20px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:360px;height:640px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:640px;}
+  .contentsScroll{height:640px;}
+  .basicArea{height:640px;}
+  .companyArea{top:640px;height:640px;}
+  .productArea{top:1280px;height:640px;}
+  .customerArea{top:1920px;height:640px;}
+  .coworkArea{top:2560px;height:640px;}
+  .footerArea{top:3000px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:20px; top:485px; background: url("../img/imgBtn/360by640_facebook.png") no-repeat center;}
+  .githubBtn{left:150px; top:485px; background: url("../img/imgBtn/360by640_github.png") no-repeat center;}
+  .blogBtn{left:270px; top:485px; background: url("../img/imgBtn/360by640_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:360px; height:75px;}
+  /*width : left , height: top*/
+  .motto1{font-size:19px;left:112px;top:14px;}
+  .motto2{font-size:19px;left:112px;top:14px;}
+  .motto3{font-size:19px;left:112px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 20px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:20px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:100px;width:360px;top:-4px;}
+  .companyExmplain >span{font-size:10px;top:25px;left:20px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:329px;height:200px;left:20px;top:179px;}
+
+  /*detail information*/
+  .detailPaypulse{width:329px;height:108px;top:260px;left:20px;}
+  .detailPaypulse >span{position:relative;font-size:10px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:10px;left:8px;}
+  .find{top:10px;left:1px;}
+  .whoIsCEO{top:3px;}
+  .phone{left:20px;top:2px;}
+  .email{top:2px;}
+
+  /*product image button*/
+  .products{height:330px;top:40px}
+  .product1{left:100px;height:159px;width:159px;}
+  .product2{top:170px;left:-65px;height:159px;width:159px;}
+  .mr9270s{width:159px;height:159px; background: url("../img/imgBtn/360by640_mr9270s.png") no-repeat center;}
+  .medida{width:159px;height:159px; background: url("../img/imgBtn/360by640_medida.png") no-repeat center;}
+  .text{font-size: 13px;}
+
+  /*customer order form*/
+  .contractT1{font-size: 16px; left:150px;}
+  .contractT2{left:35px;top:90px;font-size:10px;}
+  .contractForm{left:30px;top:140px; width:300px;height:240px;}
+  input[type=text]{width:300px;height:10px;font-size:6px;}
+  textarea{height:100px;}
+
+  /*cowork area*/
+  .coworkT{font-size:20px;left:150px;top:10px;}
+  .coworkImg{left:20px;top:50px;width:320px;height:200px;}
+  .coworkImg >img{width:320px;height:200px;}
+  .chooseImg{bottom:300px;left:20px;width:330px;height:80px;}
+  .chooseImg >img{width:75px;height:80px;}
+  .cleqee{top:340px;left:30px;width:300px;height:20px;font-size:10px;}
+
+  /*footer area*/
+  .footerC{font-size:3px;top:2px;left:20px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:3px;top:58px;left:70px;}
+  .terms{font-size: 3px;top:58px;left:200px;}
+  .copyright{font-size: 3px;top:70px;left:30px;}
+
+  /*loading bar*/
+  .loadingContain{left:100px;bottom:50px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:30px;left:140px;}
+
+  /*product contents*/
+  .productContents{width:360px;height:640px;}
+  .productScroll{height:640px;}
+
+  .productPicture{width:360px;height:640px;}
+  .productVideo{top:640px;width:360px;height:640px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:360px;height:320px;top:0px;left:0px;}
+  .pictureGrid2{width:360px;height:320px;top:320px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:180px;height:160px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:180px;}
+  .productImg3{top:160px;left:0px;}
+  .productImg4{top:160px;left:180px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:180px;height:160px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:180px;}
+  .productImg7{top:160px;left:0px;}
+  .productImg8{top:160px;left:180px;}
+
+  /*button click시 */
+  .modalImage{width:180px;height:160px; left:100px;}
+  .modalText{font-size:30px; left:150px;top:350px;}
+
+  /*product video*/
+  .productVideo{width:360px;height:640px;}
+  .playVideo{width:330px;height:330px;left:10px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:30px;left:140px;}
+
+}
+
+/*resolution 600 by 1024 : black berry iplay book*/
+@media screen and (device-width:600px) and (device-height:1024px)
+{
+  /*top button hide, acodien button show */
+  .acodiBtn{display: block! important;}
+  .topmenu{display: none ! important;}
+
+  /*Press acodien, show left side bar : width=> 150px*/
+  .leftSideBar{width:300px;height:400px;top:100px;}
+  /*left side bar contents*/
+  .leftSideCompany{width:300px;height:100px;}
+  .leftSideCustomer{width:300px;height:100px;}
+  .leftSideCowork{width:300px;height:100px;}
+  .leftSideProduct{width:300px;height:100px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:600px;height:1024px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:1024px;}
+  .contentsScroll{height:1024px;}
+  .basicArea{height:1024px;}
+  .companyArea{top:1024px;height:1024px;}
+  .productArea{top:2048px;height:1024px;}
+  .customerArea{top:3072px;height:1024px;}
+  .coworkArea{top:4096px;height:1024px;}
+  .footerArea{top:5120px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:80px; top:900px; background: url("../img/imgBtn/600by1024_facebook.png") no-repeat center;}
+  .githubBtn{left:270px; top:900px; background: url("../img/imgBtn/600by1024_gitHub.png") no-repeat center;}
+  .blogBtn{left:450px; top:900px; background: url("../img/imgBtn/600by1024_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:600px; height:100px;}
+  /*width : left , height: top*/
+  .motto1{font-size:30px;left:240px;top:14px;}
+  .motto2{font-size:30px;left:240px;top:14px;}
+  .motto3{font-size:30px;left:240px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 20px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:20px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:100px;width:600px;top:-4px;}
+  .companyExmplain >span{font-size:15px;top:25px;left:70px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:550px;height:360px;left:23px;top:220px;}
+
+  /*detail information*/
+  .detailPaypulse{width:552px;height:150px;top:400px;left:20px;}
+  .detailPaypulse >span{position:relative;font-size:15px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:20px;left:10px;}
+  .find{top:25px;left:1px;}
+  .whoIsCEO{top:6px;}
+  .phone{left:20px;top:10px;}
+  .email{top:10px;}
+
+  /*product image button*/
+  .products{height:900px;top:40px}
+  .product1{left:150px;height:350px;width:350px;}
+  .product2{top:20px;left:150px;height:350px;width:350px;}
+  .mr9270s{width:350px;height:350px; background: url("../img/imgBtn/600by1024_mr9270s.png") no-repeat center;}
+  .medida{width:350px;height:350px; background: url("../img/imgBtn/600by1024_medida.png") no-repeat center;}
+  .text{font-size: 30px;}
+
+  /*customer order form*/
+  .contractT1{font-size:30px; left:250px;}
+  .contractT2{left:55px;top:140px;font-size:16px;}
+  .contractForm{left:50px;top:240px; width:500px;height:350px;}
+  input[type=text]{width:500px;height:10px;font-size:10px;}
+  textarea{height:400px;}
+
+  /*cowork area*/
+  .coworkT{font-size:30px;left:255px;top:10px;}
+  .coworkImg{left:25px;top:100px;width:550px;height:400px;}
+  .coworkImg >img{width:550px;height:400px;}
+  .chooseImg{bottom:350px;left:25px;width:560px;height:150px;}
+  .chooseImg >img{width:130px;height:90px;}
+  .cleqee{top:640px;left:30px;width:550px;height:100px;font-size:20px;}
+
+  /*footer area*/
+  .footerC{font-size:14px;top:2px;left:60px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:14px;top:58px;left:70px;}
+  .terms{font-size:14px;top:58px;left:200px;}
+  .copyright{font-size: 14px;top:90px;left:80px;}
+
+  /*loading bar*/
+  .loadingContain{left:200px;bottom:300px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:35px;left:240px;}
+
+  /*product contents*/
+  .productContents{width:600px;height:1024px;}
+  .productScroll{height:1024px;}
+
+  .productPicture{width:600px;height:1024px;}
+  .productVideo{top:1024px;width:600px;height:1024px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:600px;height:512px;top:0px;left:0px;}
+  .pictureGrid2{width:600px;height:512px;top:512px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:300px;height:256px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:300px;}
+  .productImg3{top:256px;left:0px;}
+  .productImg4{top:256px;left:300px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:300px;height:256px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:300px;}
+  .productImg7{top:256px;left:0px;}
+  .productImg8{top:256px;left:300px;}
+
+  /*button click시 */
+  .modalImage{width:180px;height:160px; left:100px;}
+  .modalText{font-size:30px; left:150px;top:350px;}
+
+  /*product video*/
+  .productVideo{width:600px;height:1024px;}
+  .playVideo{width:560px;height:560px;left:15px;top:3px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:35px;left:240px;}
+
+}
+
+/*resoultion 800 by 1280 :kindle fire, nexus10*/
+@media screen and (device-width:800px) and (device-height: 1280px)
+{
+  /*top button is already hide, so left side bar doesn't need */
+  .leftSideBar{display: none;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:800px;height:1280px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:1280px;}
+  .contentsScroll{height:1280px;}
+  .basicArea{height:1280px;}
+  .companyArea{top:1280px;height:1280px;}
+  .productArea{top:2560px;height:1280px;}
+  .customerArea{top:3840px;height:1280px;}
+  .coworkArea{top:5120px;height:1280px;}
+  .footerArea{top:6400px;height:438px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{width:100px;height:100px;left:150px; top:1100px; background: url("../img/imgBtn/800by1280_facebook.png") no-repeat center;}
+  .githubBtn{width:100px;height:100px;left:350px; top:1100px;background: url("../img/imgBtn/800by1280_gitHub.png") no-repeat center;}
+  .blogBtn{width:100px;height:100px;left:550px; top:1100px; background: url("../img/imgBtn/800by1280_blog.png") no-repeat center;} */
+
+  /*company area part*/
+  .companyMotto {width:800px; height:100px;}
+  /*width : left , height: top*/
+  .motto1{left:250px;top:14px;}
+  .motto2{left:250px;top:14px;}
+  .motto3{left:250px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size:50px; top:-2px; opacity: 1} to{font-size: 70px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:50px; top:-2px; opacity:1} to{font-size:70px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:150px;width:800px;top:-4px;}
+  .companyExmplain >span{font-size:20px;top:30px;left:75px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:750px;height:400px;left:23px;top:330px;}
+
+  /*detail information*/
+  .detailPaypulse{width:750px;height:200px;top:450px;left:20px;}
+  .detailPaypulse >span{position:relative;font-size:20px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:30px;left:20px;}
+  .find{top:27px;left:1px;}
+  .whoIsCEO{top:6px;}
+  .phone{left:20px;top:10px;}
+  .email{top:10px;}
+
+  /*product image button*/
+  .products{height:1280px;top:40px}
+  .product1{left:170px;height:450px;width:450px;}
+  .product2{top:10px;left:170px;height:450px;width:450px;}
+  .mr9270s{width:450px;height:450px; background: url("../img/imgBtn/800by1280_mr9270s.png") no-repeat center;}
+  .medida{width:450px;height:450px; background: url("../img/imgBtn/800by1280_medida.png") no-repeat center;}
+  .text{font-size:40px;}
+
+  /*customer order form*/
+  .contractT1{font-size:40px; left:300px;}
+  .contractT2{left:90px;top:140px;font-size:20px;}
+  .contractForm{left:80px;top:240px; width:600px;height:750px;}
+  input[type=text]{width:600px;height:20px;font-size:20px;}
+  textarea{height:600px;}
+
+  /*cowork area*/
+  .coworkT{font-size:40px;left:330px;top:10px;}
+  .coworkImg{left:25px;top:100px;width:750px;height:650px;}
+  .coworkImg >img{width:750px;height:650px;}
+  .chooseImg{bottom:420px;left:25px;width:760px;height:100px;}
+  .chooseImg >img{width:180px;height:100px;}
+  .cleqee{top:890px;left:50px;width:700px;height:100px;font-size:40px;}
+
+  /*footer area*/
+  .footerC{font-size:20px;top:2px;left:80px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:20px;top:58px;left:80px;}
+  .terms{font-size:20px;top:58px;left:200px;}
+  .copyright{font-size:20px;top:120px;left:90px;}
+
+  /*loading bar*/
+  .loadingContain{left:300px;bottom:300px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:35px;left:320px;}
+
+  /*product contents*/
+  .productContents{width:800px;height:1280px;}
+  .productScroll{height:1280px;}
+
+  .productPicture{width:800px;height:1280px;}
+  .productVideo{top:1280px;width:800px;height:1280px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:800px;height:640px;top:0px;left:0px;}
+  .pictureGrid2{width:800px;height:640px;top:640px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:400px;height:320px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:400px;}
+  .productImg3{top:320px;left:0px;}
+  .productImg4{top:320px;left:400px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:400px;height:320px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:400px;}
+  .productImg7{top:320px;left:0px;}
+  .productImg8{top:320px;left:400px;}
+
+  /*button click시 */
+  .modalImage{width:500px;height:320px; left:150px;}
+  .modalText{font-size:50px; left:200px;top:450px;}
+
+  /*product video*/
+  .productVideo{width:800px;height:1280px;}
+  .playVideo{width:600px;height:600px;left:100px;top:3px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:35px;left:350px;}
+}
+
+/*resolution 384 by 640 : LG Optimus, nexus4*/
+@media screen and (device-width:384px) and (device-height:640px)
+{
+  /*top button hide, acodien button show */
+  .acodiBtn{display: block! important;}
+  .topmenu{display: none ! important;}
+
+  /*Press acodien, show left side bar : width=> 150px*/
+  .leftSideBar{width:150px;top:100px; height:200px;}
+  /*left side bar contents*/
+  .leftSideCompany{width:150px;height:50px;}
+  .leftSideCustomer{width:150px;height:50px;}
+  .leftSideCowork{width:150px;height:50px;}
+  .leftSideProduct{width:150px;height:50px;}
+  .leftSideTextA{top:20px;}
+  .leftSideTextB{top:20px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:384px;height:640px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:640px;}
+  .contentsScroll{height:640px;}
+  .basicArea{height:640px;}
+  .companyArea{top:640px;height:640px;}
+  .productArea{top:1280px;height:640px;}
+  .customerArea{top:1920px;height:640px;}
+  .coworkArea{top:2560px;height:640px;}
+  .footerArea{top:3000px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:20px; top:485px; background: url("../img/imgBtn/360by640_facebook.png") no-repeat center;}
+  .githubBtn{left:150px; top:485px; background: url("../img/imgBtn/360by640_github.png") no-repeat center;}
+  .blogBtn{left:270px; top:485px; background: url("../img/imgBtn/360by640_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:384px; height:75px;}
+  /*width : left , height: top*/
+  .motto1{font-size:19px;left:112px;top:14px;}
+  .motto2{font-size:19px;left:112px;top:14px;}
+  .motto3{font-size:19px;left:112px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 20px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:20px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:100px;width:384px;top:-4px;}
+  .companyExmplain >span{font-size:10px;top:25px;left:25px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:329px;height:200px;left:25px;top:179px;}
+
+  /*detail information*/
+  .detailPaypulse{width:329px;height:108px;top:260px;left:25px;}
+  .detailPaypulse >span{position:relative;font-size:10px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:10px;left:8px;}
+  .find{top:10px;left:1px;}
+  .whoIsCEO{top:3px;}
+  .phone{left:20px;top:2px;}
+  .email{top:2px;}
+
+  /*product image button*/
+  .products{height:330px;top:40px}
+  .product1{left:100px;height:159px;width:159px;}
+  .product2{top:170px;left:-65px;height:159px;width:159px;}
+  .mr9270s{width:159px;height:159px; background: url("../img/imgBtn/360by640_mr9270s.png") no-repeat center;}
+  .medida{width:159px;height:159px; background: url("../img/imgBtn/360by640_medida.png") no-repeat center;}
+  .text{font-size: 13px;}
+
+  /*customer order form*/
+  .contractT1{font-size: 16px; left:160px;}
+  .contractT2{left:45px;top:90px;font-size:10px;}
+  .contractForm{left:40px;top:140px; width:300px;height:240px;}
+  input[type=text]{width:300px;height:10px;font-size:6px;}
+  textarea{height:100px;}
+
+  /*cowork area*/
+  .coworkT{font-size:20px;left:150px;top:10px;}
+  .coworkImg{left:25px;top:50px;width:320px;height:200px;}
+  .coworkImg >img{width:320px;height:200px;}
+  .chooseImg{bottom:300px;left:25px;width:330px;height:80px;}
+  .chooseImg >img{width:75px;height:80px;}
+  .cleqee{top:340px;left:30px;width:300px;height:20px;font-size:10px;}
+
+  /*footer area*/
+  .footerC{font-size:3px;top:2px;left:20px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:3px;top:58px;left:70px;}
+  .terms{font-size: 3px;top:58px;left:200px;}
+  .copyright{font-size: 3px;top:70px;left:30px;}
+
+  /*loading bar*/
+  .loadingContain{left:100px;bottom:50px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:30px;left:140px;}
+
+  /*product contents*/
+  .productContents{width:384px;height:640px;}
+  .productScroll{height:640px;}
+
+  .productPicture{width:384px;height:640px;}
+  .productVideo{top:640px;width:384px;height:640px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:384px;height:320px;top:0px;left:0px;}
+  .pictureGrid2{width:384px;height:320px;top:320px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:192px;height:160px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:192px;}
+  .productImg3{top:160px;left:0px;}
+  .productImg4{top:160px;left:192px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:192px;height:160px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:192px;}
+  .productImg7{top:160px;left:0px;}
+  .productImg8{top:160px;left:192px;}
+
+  /*button click시 */
+  .modalImage{width:192px;height:160px; left:100px;}
+  .modalText{font-size:30px; left:150px;top:350px;}
+
+  /*product video*/
+  .productVideo{width:384px;height:640px;}
+  .playVideo{width:340px;height:330px;left:20px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:30px;left:140px;}
+
+}
+
+/*resolution 1440 by 900 :Laptop width HiDPI*/
+@media screen and (device-width:1440px) and (device-height:900px)
+{
+  /*top button is already hide, so left side bar doesn't need */
+  .leftSideBar{display: none;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:1440px;height:900px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:900px;}
+  .contentsScroll{height:900px;}
+  .basicArea{height:900px;}
+  .companyArea{top:900px;height:900px;}
+  .productArea{top:1800px;height:900px;}
+  .customerArea{top:2700px;height:900px;}
+  .coworkArea{top:3600px;height:900px;}
+  .footerArea{top:4500px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:450px; top:800px; background: url("../img/facebook.png") no-repeat center;}
+  .githubBtn{left:650px; top:800px; background: url("../img/gitHub.png") no-repeat center;}
+  .blogBtn{left:850px; top:800px; background: url("../img/blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:1440px; height:100px;}
+  /*width : left , height: top*/
+  .motto1{font-size:30px;left:650px;top:14px;}
+  .motto2{font-size:30px;left:650px;top:14px;}
+  .motto3{font-size:30px;left:650px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 40px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:40px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:100px;width:1440px;top:1px;}
+  .companyExmplain >span{font-size:25px;top:25px;left:350px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:550px;height:400px;left:100px;top:250px;}
+
+  /*detail information*/
+  .detailPaypulse{width:650px;height:200px;top:150px;left:700px;}
+  .detailPaypulse >span{position:relative;font-size:20px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:20px;left:10px;}
+  .find{top:25px;left:1px;}
+  .whoIsCEO{top:6px;}
+  .phone{left:20px;top:10px;}
+  .email{top:10px;}
+
+  /*product image button*/
+  .products{height:600px;top:40px}
+  .product1{left:130px;height:600px;width:600px;}
+  .product2{top:0px;left:150px;height:600px;width:600px;}
+  .mr9270s{width:600px;height:600px; background: url("../img/mr9270s.png") no-repeat center;}
+  .medida{width:600px;height:600px; background: url("../img/medida.png") no-repeat center;}
+  .text{font-size: 40px;}
+
+  /*customer order form*/
+  .contractT1{font-size:50px; left:650px;}
+  .contractT2{left:430px;top:140px;font-size:25px;}
+  .contractForm{left:450px;top:240px; width:650px;height:500px;}
+  input[type=text]{width:650px;height:10px;font-size:16px;}
+  textarea{height:300px;}
+
+  /*cowork area*/
+  .coworkT{font-size:50px;left:630px;top:10px;}
+  .coworkImg{left:100px;top:100px;width:1200px;height:400px;}
+  .coworkImg >img{width:1200px;height:400px;}
+  .chooseImg{bottom:240px;left:150px;width:1200px;height:150px;}
+  .chooseImg >img{width:260px;height:120px;}
+  .cleqee{top:640px;left:400px;width:550px;height:50px;font-size:20px;}
+
+  /*footer area*/
+  .footerC{font-size:20px;top:2px;left:400px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:20px;top:58px;left:70px;}
+  .terms{font-size:20px;top:58px;left:200px;}
+  .copyright{font-size:20px;top:120px;left:400px;}
+
+  /*loading bar*/
+  .loadingContain{left:600px;bottom:200px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:40px;left:620px;}
+
+  /*product contents*/
+  .productContents{width:1440px;height:900px;}
+  .productScroll{height:900px;}
+
+  .productPicture{width:1440px;height:900px;}
+  .productVideo{top:900px;width:1440px;height:900px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:720px;height:900px;top:0px;left:0px;}
+  .pictureGrid2{width:720px;height:900px;top:0px;left:720px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:360px;height:450px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:360px;}
+  .productImg3{top:450px;left:0px;}
+  .productImg4{top:450px;left:360px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:360px;height:450px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:360px;}
+  .productImg7{top:450px;left:0px;}
+  .productImg8{top:450px;left:360px;}
+
+  /*button click시 */
+  .modalImage{width:360px;height:450px; left:550px;}
+  .modalText{font-size:40px;left:550px;top:600px;}
+
+  /*product video*/
+  .productVideo{width:1440px;height:900px;}
+  .playVideo{width:900px;height:700px;left:250px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:35px;left:650px;}
+
+
+}
+
+/*resolution 1280 by 800 : Laptop width MDPI*/
+@media screen and (device-width:1280px) and (device-height:800px)
+{
+  /*top button is already hide, so left side bar doesn't need */
+  .leftSideBar{display: none;}
+  /*image : width, height 조절*/
+  .imageFile{width:1280px;height:800px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:800px;}
+  .contentsScroll{height:800px;}
+  .basicArea{height:800px;}
+  .companyArea{top:800px;height:800px;}
+  .productArea{top:1600px;height:800px;}
+  .customerArea{top:2400px;height:800px;}
+  .coworkArea{top:3200px;height:800px;}
+  .footerArea{top:4000px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:450px; top:730px; background: url("../img/facebook.png") no-repeat center;}
+  .githubBtn{left:650px; top:730px; background: url("../img/gitHub.png") no-repeat center;}
+  .blogBtn{left:850px; top:730px; background: url("../img/blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:1280px; height:100px;}
+  /*width : left , height: top*/
+  .motto1{font-size:30px;left:650px;top:14px;}
+  .motto2{font-size:30px;left:650px;top:14px;}
+  .motto3{font-size:30px;left:650px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 40px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:40px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:100px;width:1440px;top:1px;}
+  .companyExmplain >span{font-size:25px;top:25px;left:350px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:550px;height:400px;left:30px;top:220px;}
+
+  /*detail information*/
+  .detailPaypulse{width:650px;height:200px;top:150px;left:600px;}
+  .detailPaypulse >span{position:relative;font-size:20px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:20px;left:10px;}
+  .find{top:25px;left:1px;}
+  .whoIsCEO{top:6px;}
+  .phone{left:20px;top:10px;}
+  .email{top:10px;}
+
+  /*product image button*/
+  .products{height:600px;top:40px}
+  .product1{left:130px;height:500px;width:500px;}
+  .product2{top:0px;left:150px;height:500px;width:500px;}
+  .mr9270s{width:500px;height:500px; background: url("../img/imgBtn/1280by800_mr9270s.png") no-repeat center;}
+  .medida{width:500px;height:500px; background: url("../img/imgBtn/1280by800_medida.png") no-repeat center;}
+  .text{font-size: 40px;}
+
+  /*customer order form*/
+  .contractT1{font-size:50px; left:550px;}
+  .contractT2{left:280px;top:140px;font-size:25px;}
+  .contractForm{left:270px;top:250px; width:720px;height:300px;}
+  input[type=text]{width:720px;height:10px;font-size:16px;}
+  textarea{height:200px;}
+
+  /*cowork area*/
+  .coworkT{font-size:50px;left:550px;top:10px;}
+  .coworkImg{left:150px;top:100px;width:1000px;height:300px;}
+  .coworkImg >img{width:1000px;height:300px;}
+  .chooseImg{bottom:240px;left:200px;width:1000px;height:150px;}
+  .chooseImg >img{width:220px;height:120px;}
+  .cleqee{top:550px;left:350px;width:550px;height:50px;font-size:20px;}
+
+  /*footer area*/
+  .footerC{font-size:20px;top:2px;left:400px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:20px;top:58px;left:70px;}
+  .terms{font-size:20px;top:58px;left:200px;}
+  .copyright{font-size:20px;top:120px;left:400px;}
+
+  /*loading bar*/
+  .loadingContain{left:600px;bottom:150px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:40px;left:620px;}
+
+  /*product contents*/
+  .productContents{width:1280px;height:800px;}
+  .productScroll{height:800px;}
+
+  .productPicture{width:1280px;height:800px;}
+  .productVideo{top:800px;width:1280px;height:800px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:640px;height:800px;top:0px;left:0px;}
+  .pictureGrid2{width:640px;height:800px;top:0px;left:640px;}
+
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:320px;height:400px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:320px;}
+  .productImg3{top:400px;left:0px;}
+  .productImg4{top:400px;left:320px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:320px;height:400px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:320px;}
+  .productImg7{top:400px;left:0px;}
+  .productImg8{top:400px;left:320px;}
+
+  /*button click시 */
+  .modalImage{width:320px;height:400px; left:500px;}
+  .modalText{font-size:40px;left:550px;top:600px;}
+
+  /*product video*/
+  .productVideo{width:1280px;height:800px;}
+  .playVideo{width:900px;height:600px;left:200px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:35px;left:650px;}
+
+}
+
+/*resolution 1280 by 950 : Laptop width touch */
+@media screen and (device-width:1280px) and (device-height:950px)
+{
+  /*top button is already hide, so left side bar doesn't need */
+  .leftSideBar{display: none;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:1280px;height:950px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:950px;}
+  .contentsScroll{height:950px;}
+  .basicArea{height:950px;}
+  .companyArea{top:950px;height:950px;}
+  .productArea{top:1900px;height:950px;}
+  .customerArea{top:2850px;height:950px;}
+  .coworkArea{top:3800px;height:950px;}
+  .footerArea{top:4750px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:440px; top:860px; background: url("../img/facebook.png") no-repeat center;}
+  .githubBtn{left:640px; top:860px; background: url("../img/gitHub.png") no-repeat center;}
+  .blogBtn{left:840px; top:860px; background: url("../img/blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:1280px; height:100px;}
+  /*width : left , height: top*/
+  .motto1{font-size:30px;left:650px;top:14px;}
+  .motto2{font-size:30px;left:650px;top:14px;}
+  .motto3{font-size:30px;left:650px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 40px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:40px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:100px;width:1280px;top:1px;}
+  .companyExmplain >span{font-size:25px;top:25px;left:350px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:550px;height:400px;left:30px;top:220px;}
+
+  /*detail information*/
+  .detailPaypulse{width:650px;height:200px;top:150px;left:600px;}
+  .detailPaypulse >span{position:relative;font-size:20px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:20px;left:10px;}
+  .find{top:25px;left:1px;}
+  .whoIsCEO{top:6px;}
+  .phone{left:20px;top:10px;}
+  .email{top:10px;}
+
+  /*product image button*/
+  .products{height:600px;top:40px}
+  .product1{left:130px;height:500px;width:500px;}
+  .product2{top:0px;left:150px;height:500px;width:500px;}
+  .mr9270s{width:500px;height:500px; background: url("../img/imgBtn/1280by800_mr9270s.png") no-repeat center;}
+  .medida{width:500px;height:500px; background: url("../img/imgBtn/1280by800_medida.png") no-repeat center;}
+  .text{font-size: 40px;}
+
+  /*customer order form*/
+  .contractT1{font-size:50px; left:550px;}
+  .contractT2{left:280px;top:140px;font-size:25px;}
+  .contractForm{left:270px;top:250px; width:720px;height:300px;}
+  input[type=text]{width:720px;height:10px;font-size:16px;}
+  textarea{height:200px;}
+
+  /*cowork area*/
+  .coworkT{font-size:50px;left:550px;top:10px;}
+  .coworkImg{left:150px;top:100px;width:1000px;height:400px;}
+  .coworkImg >img{width:1000px;height:400px;}
+  .chooseImg{bottom:270px;left:200px;width:1000px;height:150px;}
+  .chooseImg >img{width:220px;height:120px;}
+  .cleqee{top:650px;left:350px;width:550px;height:100px;font-size:30px;}
+
+  /*footer area*/
+  .footerC{font-size:20px;top:2px;left:400px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:20px;top:58px;left:70px;}
+  .terms{font-size:20px;top:58px;left:200px;}
+  .copyright{font-size:20px;top:120px;left:400px;}
+
+  /*loading bar*/
+  .loadingContain{left:600px;bottom:150px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:40px;left:620px;}
+
+  /*product contents*/
+  .productContents{width:1280px;height:950px;}
+  .productScroll{height:950px;}
+
+  .productPicture{width:1280px;height:950px;}
+  .productVideo{top:800px;width:1280px;height:950px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:640px;height:950px;top:0px;left:0px;}
+  .pictureGrid2{width:640px;height:950px;top:0px;left:640px;}
+
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:320px;height:475px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:320px;}
+  .productImg3{top:475px;left:0px;}
+  .productImg4{top:475px;left:320px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:320px;height:475px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:320px;}
+  .productImg7{top:475px;left:0px;}
+  .productImg8{top:475px;left:320px;}
+
+  /*button click시 */
+  .modalImage{width:320px;height:400px; left:500px;}
+  .modalText{font-size:40px;left:550px;top:600px;}
+
+  /*product video*/
+  .productVideo{width:1280px;height:800px;}
+  .playVideo{width:900px;height:600px;left:200px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:35px;left:650px;}
+
+
+}
+
+
+/*resolution 640 by 360  : Lumia 550*/
+@media screen and (device-width:640px) and (device-height:360px)
+{
+  /*top button hide, acodien button show */
+  .acodiBtn{display: block! important;}
+  .topmenu{display: none ! important;}
+
+  /*Press acodien, show left side bar : width=> 150px*/
+  .leftSideBar{width:150px;top:100px;height:200px;}
+  /*left side bar contents*/
+  .leftSideCompany{width:150px;height:50px;}
+  .leftSideCustomer{width:150px;height:50px;}
+  .leftSideCowork{width:150px;height:50px;}
+  .leftSideProduct{width:150px;height:50px;}
+  .leftSideTextA{top:20px;}
+  .leftSideTextB{top:20px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:640px;height:360px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:360px;}
+  .contentsScroll{height:360px;}
+  .basicArea{height:360px;}
+  .companyArea{top:360px;height:360px;}
+  .productArea{top:720px;height:360px;}
+  .customerArea{top:1080px;height:360px;}
+  .coworkArea{top:1440px;height:360px;}
+  .footerArea{top:1800px;height:310px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:550px; top:150px;  background: url("../img/imgBtn/360by640_facebook.png") no-repeat center;}
+  .githubBtn{left:550px; top:220px; background: url("../img/imgBtn/360by640_github.png") no-repeat center;}
+  .blogBtn{left:550px; top:280px;  background: url("../img/imgBtn/360by640_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:640px; height:60px;}
+  /*width : left , height: top*/
+  .motto1{font-size:19px;left:280px;top:14px;}
+  .motto2{font-size:19px;left:280px;top:14px;}
+  .motto3{font-size:19px;left:280px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 10px; top:-2px; opacity: 1} to{font-size: 20px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:10px; top:-2px; opacity:1} to{ font-size:20px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:60px;width:640px;top:-4px;}
+  .companyExmplain >span{font-size:10px;top:10px;left:160px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:200px;height:200px;left:20px;top:150px;}
+
+  /*detail information*/
+  .detailPaypulse{width:330px;height:108px;top:80px;left:230px;}
+  .detailPaypulse >span{position:relative;font-size:2px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:10px;left:8px;}
+  .find{top:10px;left:1px;}
+  .whoIsCEO{top:3px;}
+  .phone{left:20px;top:2px;}
+  .email{top:2px;}
+
+  /*product image button*/
+  .products{height:330px;top:40px}
+  .product1{left:100px;height:159px;width:159px;}
+  .product2{left:200px;height:159px;width:159px;}
+  .mr9270s{width:159px;height:159px; background: url("../img/imgBtn/360by640_mr9270s.png") no-repeat center;}
+  .medida{width:159px;height:159px; background: url("../img/imgBtn/360by640_medida.png") no-repeat center;}
+  .text{font-size: 13px;}
+
+  /*customer order form*/
+  .contractT1{font-size: 16px; left:300px;top:10px;}
+  .contractT2{left:100px;top:40px;font-size:15px;}
+  .contractForm{left:100px;top:90px; width:450px;height:100px;}
+  input[type=text]{width:450px;height:10px;font-size:6px;}
+  textarea{height:50px;}
+
+  /*cowork area*/
+  .coworkT{font-size:20px;left:300px;top:10px;}
+  .coworkImg{left:20px;top:50px;width:500px;height:200px;}
+  .coworkImg >img{width:500px;height:200px;}
+  .chooseImg{bottom:50px;left:60px;width:400px;height:50px;}
+  .chooseImg >img{width:90px;height:50px;}
+  .cleqee{top:310px;left:100px;width:300px;height:20px;font-size:10px;}
+
+  /*footer area*/
+  .footerC{font-size:10px;top:20px;left:150px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:10px;top:58px;left:70px;}
+  .terms{font-size:10px;top:58px;left:300px;}
+  .copyright{font-size:10px;top:104px;left:150px;}
+
+  /*loading bar*/
+  .loadingContain{left:200px;bottom:1px;width:100px;height:100px;}
+  .loadingContain >div{height:100px;bottom:10px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:30px;left:300px;}
+
+  /*product contents*/
+  .productContents{width:640px;height:360px;}
+  .productScroll{height:360px;}
+
+  .productPicture{width:640px;height:360px;}
+  .productVideo{top:360px;width:640px;height:360px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:640px;height:180px;top:0px;left:0px;}
+  .pictureGrid2{width:640px;height:180px;top:180px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:320px;height:90px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:320px;}
+  .productImg3{top:90px;left:0px;}
+  .productImg4{top:90px;left:320px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:320px;height:90px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:320px;}
+  .productImg7{top:90px;left:0px;}
+  .productImg8{top:90px;left:320px;}
+
+  /*button click시 */
+  .modalImage{width:180px;height:160px; left:250px;top:50px;}
+  .modalText{font-size:30px; left:250px;top:250px;}
+
+  /*product video*/
+  .productVideo{width:640px;height:360px;}
+  .playVideo{width:500px;height:250px;left:60px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:30px;left:280px;}
+
+
+}
+
+/*resolution 412 by 732 : nexus6 , nexus 5x, nexux 6p */
+@media screen and (device-width:412px) and (device-height:732px)
+{
+  /*top button hide, acodien button show */
+  .acodiBtn{display: block! important;}
+  .topmenu{display: none ! important;}
+
+  /*Press acodien, show left side bar : width=> 150px*/
+  .leftSideBar{width:150px;top:100px;height:200px;}
+  /*left side bar contents*/
+  .leftSideCompany{width:150px;height:50px;}
+  .leftSideCustomer{width:150px;height:50px;}
+  .leftSideCowork{width:150px;height:50px;}
+  .leftSideProduct{width:150px;height:50px;}
+  .leftSideTextA{top:20px;}
+  .leftSideTextB{top:20px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:412px;height:732px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:732px;}
+  .contentsScroll{height:732px;}
+  .basicArea{height:732px;}
+  .companyArea{top:732px;height:732px;}
+  .productArea{top:1464px;height:732px;}
+  .customerArea{top:2196px;height:732px;}
+  .coworkArea{top:2928px;height:732px;}
+  .footerArea{top:3660px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:40px; top:650px; background: url("../img/imgBtn/360by640_facebook.png") no-repeat center;}
+  .githubBtn{left:160px; top:650px; background: url("../img/imgBtn/360by640_github.png") no-repeat center;}
+  .blogBtn{left:290px; top:650px; background: url("../img/imgBtn/360by640_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:412px; height:100px;}
+  /*width : left , height: top*/
+  .motto1{font-size:19px;left:112px;top:14px;}
+  .motto2{font-size:19px;left:112px;top:14px;}
+  .motto3{font-size:19px;left:112px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 20px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:20px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:100px;width:412px;top:-4px;}
+  .companyExmplain >span{font-size:13px;top:25px;left:8px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:380px;height:200px;left:12px;top:220px;}
+
+  /*detail information*/
+  .detailPaypulse{width:400px;height:108px;top:230px;left:5px;}
+  .detailPaypulse >span{position:relative;font-size:10px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:10px;left:8px;}
+  .find{top:10px;left:1px;}
+  .whoIsCEO{top:3px;}
+  .phone{left:20px;top:2px;}
+  .email{top:2px;}
+
+  /*product image button*/
+  .products{height:330px;top:40px}
+  .product1{left:120px;height:159px;width:159px;}
+  .product2{top:200px;left:-45px;height:159px;width:159px;}
+  .mr9270s{width:159px;height:159px; background: url("../img/imgBtn/360by640_mr9270s.png") no-repeat center;}
+  .medida{width:159px;height:159px; background: url("../img/imgBtn/360by640_medida.png") no-repeat center;}
+  .text{font-size: 13px;}
+
+  /*customer order form*/
+  .contractT1{font-size: 18px; left:170px;}
+  .contractT2{left:50px;top:90px;font-size:10px;}
+  .contractForm{left:50px;top:140px; width:300px;height:400px;}
+  input[type=text]{width:300px;height:50px;font-size:6px;}
+  textarea{height:200px;}
+
+  /*cowork area*/
+  .coworkT{font-size:20px;left:170px;top:20px;}
+  .coworkImg{left:35px;top:80px;width:340px;height:300px;}
+  .coworkImg >img{width:340px;height:300px;}
+  .chooseImg{bottom:260px;left:45px;width:330px;height:80px;}
+  .chooseImg >img{width:75px;height:80px;}
+  .cleqee{top:480px;left:50px;width:300px;height:50px;font-size:10px;}
+
+  /*footer area*/
+  .footerC{font-size:12px;top:20px;left:20px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:12px;top:58px;left:70px;}
+  .terms{font-size:12px;top:58px;left:200px;}
+  .copyright{font-size:12px;top:110px;left:40px;}
+
+  /*loading bar*/
+  .loadingContain{left:100px;bottom:50px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:30px;left:140px;}
+
+  /*product contents*/
+  .productContents{width:412px;height:732px;}
+  .productScroll{height:732px;}
+
+  .productPicture{width:412px;height:732px;}
+  .productVideo{top:732px;width:412px;height:732px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:412px;height:366px;top:0px;left:0px;}
+  .pictureGrid2{width:412px;height:366px;top:366px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:206px;height:183px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:206px;}
+  .productImg3{top:183px;left:0px;}
+  .productImg4{top:183px;left:206px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:206px;height:183px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:206px;}
+  .productImg7{top:183px;left:0px;}
+  .productImg8{top:183px;left:206px;}
+
+  /*button click시 */
+  .modalImage{width:180px;height:160px; left:100px;}
+  .modalText{font-size:30px; left:150px;top:350px;}
+
+  /*product video*/
+  .productVideo{width:412px;height:732px;}
+  .playVideo{width:380px;height:400px;left:15px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:30px;left:160px;}
+
+}
+
+/*resolution 600 by 960 :nexus7*/
+@media screen and (device-width:600px) and (device-height:960px)
+{
+  /*top button hide, acodien button show */
+  .acodiBtn{display: block! important;}
+  .topmenu{display: none ! important;}
+
+  /*Press acodien, show left side bar : width=> 150px*/
+  .leftSideBar{width:300px;height:400px;top:100px;}
+  /*left side bar contents*/
+  .leftSideCompany{width:300px;height:100px;}
+  .leftSideCustomer{width:300px;height:100px;}
+  .leftSideCowork{width:300px;height:100px;}
+  .leftSideProduct{width:300px;height:100px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:600px;height:960px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:960px;}
+  .contentsScroll{height:960px;}
+  .basicArea{height:960px;}
+  .companyArea{top:960px;height:960px;}
+  .productArea{top:1920px;height:960px;}
+  .customerArea{top:2880px;height:960px;}
+  .coworkArea{top:3840px;height:960px;}
+  .footerArea{top:4800px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:80px; top:870px; background: url("../img/imgBtn/600by1024_facebook.png") no-repeat center;}
+  .githubBtn{left:270px; top:870px; background: url("../img/imgBtn/600by1024_gitHub.png") no-repeat center;}
+  .blogBtn{left:450px; top:870px; background: url("../img/imgBtn/600by1024_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:600px; height:100px;}
+  /*width : left , height: top*/
+  .motto1{font-size:30px;left:240px;top:14px;}
+  .motto2{font-size:30px;left:240px;top:14px;}
+  .motto3{font-size:30px;left:240px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 20px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:20px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:100px;width:600px;top:-4px;}
+  .companyExmplain >span{font-size:15px;top:25px;left:70px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:550px;height:360px;left:23px;top:220px;}
+
+  /*detail information*/
+  .detailPaypulse{width:552px;height:150px;top:400px;left:20px;}
+  .detailPaypulse >span{position:relative;font-size:15px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:20px;left:10px;}
+  .find{top:25px;left:1px;}
+  .whoIsCEO{top:6px;}
+  .phone{left:20px;top:10px;}
+  .email{top:10px;}
+
+  /*product image button*/
+  .products{height:900px;top:40px}
+  .product1{left:150px;height:350px;width:350px;}
+  .product2{top:20px;left:150px;height:350px;width:350px;}
+  .mr9270s{width:350px;height:350px; background: url("../img/imgBtn/600by1024_mr9270s.png") no-repeat center;}
+  .medida{width:350px;height:350px; background: url("../img/imgBtn/600by1024_medida.png") no-repeat center;}
+  .text{font-size: 30px;}
+
+  /*customer order form*/
+  .contractT1{font-size:30px; left:250px;}
+  .contractT2{left:55px;top:140px;font-size:16px;}
+  .contractForm{left:50px;top:240px; width:500px;height:500px;}
+  input[type=text]{width:500px;height:10px;font-size:10px;}
+  textarea{height:350px;}
+
+  /*cowork area*/
+  .coworkT{font-size:30px;left:255px;top:10px;}
+  .coworkImg{left:25px;top:100px;width:550px;height:400px;}
+  .coworkImg >img{width:550px;height:400px;}
+  .chooseImg{bottom:290px;left:28px;width:560px;height:150px;}
+  .chooseImg >img{width:130px;height:90px;}
+  .cleqee{top:620px;left:26px;width:550px;height:100px;font-size:20px;}
+
+  /*footer area*/
+  .footerC{font-size:14px;top:2px;left:70px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:14px;top:58px;left:70px;}
+  .terms{font-size:14px;top:58px;left:200px;}
+  .copyright{font-size: 14px;top:90px;left:80px;}
+
+  /*loading bar*/
+  .loadingContain{left:200px;bottom:300px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:35px;left:240px;}
+
+  /*product contents*/
+  .productContents{width:600px;height:960px;}
+  .productScroll{height:960px;}
+
+  .productPicture{width:600px;height:960px;}
+  .productVideo{top:960px;width:600px;height:960px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:600px;height:480px;top:0px;left:0px;}
+  .pictureGrid2{width:600px;height:480px;top:480px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:300px;height:240px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:300px;}
+  .productImg3{top:240px;left:0px;}
+  .productImg4{top:240px;left:300px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:300px;height:240px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:300px;}
+  .productImg7{top:240px;left:0px;}
+  .productImg8{top:240px;left:300px;}
+
+  /*button click시 */
+  .modalImage{width:180px;height:160px; left:100px;}
+  .modalText{font-size:30px; left:150px;top:350px;}
+
+  /*product video*/
+  .productVideo{width:600px;height:960px;}
+  .playVideo{width:560px;height:560px;left:15px;top:3px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:35px;left:240px;}
+
+
+
+}
+
+/*resolution 320 by 533 :nokia lumia 520*/
+@media screen and (device-width:320px) and (device-height:533px)
+{
+  /*top button hide, acodien button show */
+  .acodiBtn{display: block! important;}
+  .topmenu{display: none ! important;}
+
+  /*Press acodien , show left side bar : width=> 100px */
+  .leftSideBar{width:100px;top:100px; height:200px;}
+  .leftSideCompany{width:100px;height:50px;}
+  .leftSideCustomer{width:100px;height:50px;}
+  .leftSideCowork{width:100px;height:50px;}
+  .leftSideProduct{width:100px;height:50px;}
+  .leftSideTextA{top:10px;}
+  .leftSideTextB{top:10px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:320px;height:533px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:533px;}
+  .contentsScroll{height:533px;}
+  .basicArea{height:533px;}
+  .companyArea{top:533px;height:533px;}
+  .productArea{top:1066px;height:533px;}
+  .customerArea{top:1599px;height:533px;}
+  .coworkArea{top:2132px;height:533px;}
+  .footerArea{top:2665px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:2px; top:450px; background: url("../img/imgBtn/360by640_facebook.png") no-repeat center;}
+  .githubBtn{left:120px; top:450px; background: url("../img/imgBtn/360by640_github.png") no-repeat center;}
+  .blogBtn{left:240px; top:450px; background: url("../img/imgBtn/360by640_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:320px; height:75px;}
+  /*width : left , height: top*/
+  .motto1{font-size:19px;left:112px;top:14px;}
+  .motto2{font-size:19px;left:112px;top:14px;}
+  .motto3{font-size:19px;left:112px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 20px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:20px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:70px;width:320px;top:-4px;}
+  .companyExmplain >span{font-size:5px;top:2px;left:10px;text-align: center;}
+  .explainT{padding:2px 2px 2px 2px;}
+
+  /*google map*/
+  .addressMap{width:300px;height:200px;left:10px;top:150px;}
+
+  /*detail information*/
+  .detailPaypulse{width:315px;height:120px;top:260px;left:2px;}
+  .detailPaypulse >span{position:relative;font-size:2px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:5px 5px 5px 5px;}
+  .detailAddress{top:10px;left:8px;}
+  .find{top:10px;left:1px;}
+  .whoIsCEO{top:3px;}
+  .phone{left:20px;top:2px;}
+  .email{top:2px;}
+
+  /*product image button*/
+  .products{height:330px;top:10px}
+  .product1{left:80px;height:159px;width:159px;}
+  .product2{top:10px;left:80px;height:159px;width:159px;}
+  .mr9270s{width:159px;height:159px; background: url("../img/imgBtn/360by640_mr9270s.png") no-repeat center;}
+  .medida{width:159px;height:159px; background: url("../img/imgBtn/360by640_medida.png") no-repeat center;}
+  .text{font-size: 13px;}
+
+  /*customer order form*/
+  .contractT1{font-size: 16px; left:130px;}
+  .contractT2{left:10px;top:90px;font-size:10px;}
+  .contractForm{left:10px;top:130px; width:290px;height:240px;}
+  input[type=text]{width:290px;height:10px;font-size:6px;}
+  textarea{height:80px;}
+
+  /*cowork area*/
+  .coworkT{font-size:20px;left:130px;top:5px;}
+  .coworkImg{left:10px;top:38px;width:300px;height:200px;}
+  .coworkImg >img{width:300px;height:200px;}
+  .chooseImg{bottom:210px;left:10px;width:300px;height:80px;}
+  .chooseImg >img{width:70px;height:80px;}
+  .cleqee{top:320px;left:20px;width:280px;height:10px;font-size:10px;}
+
+  /*footer area*/
+  .footerC{font-size:2px;top:10px;left:2px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:3px;top:58px;left:70px;}
+  .terms{font-size: 3px;top:58px;left:200px;}
+  .copyright{font-size: 3px;top:70px;left:10px;}
+
+  /*loading bar*/
+  .loadingContain{left:70px;bottom:10px;width:200px;height:100px;}
+  .loadingContain >div{height:100px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:20px;left:120px;}
+
+  /*product contents*/
+  .productContents{width:320px;height:533px;}
+  .productScroll{height:533px;}
+
+  .productPicture{width:320px;height:533px;}
+  .productVideo{top:533px;width:320px;height:533px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:320px;height:266px;top:0px;left:0px;}
+  .pictureGrid2{width:320px;height:266px;top:266px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:160px;height:133px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:160px;}
+  .productImg3{top:133px;left:0px;}
+  .productImg4{top:133px;left:160px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:160px;height:133px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:160px;}
+  .productImg7{top:133px;left:0px;}
+  .productImg8{top:133px;left:160px;}
+
+  /*button click시 */
+  .modalImage{width:180px;height:160px; left:70px;}
+  .modalText{font-size:30px; left:140px;top:300px;}
+
+  /*product video*/
+  .productVideo{width:320px;height:533px;}
+  .playVideo{width:300px;height:300px;left:5px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:25px;left:130px;}
+
+}
+
+/*resolution 480 by 854 : nokia n9*/
+@media screen and (device-width:480px) and (device-height:854px)
+{
+  /*top button hide, acodien button show */
+  .acodiBtn{display: block! important;}
+  .topmenu{display: none ! important;}
+
+  /*Press acodien, show left side bar : width=> 150px*/
+  .leftSideBar{width:150px;top:100px;height:200px;}
+  /*left side bar contents*/
+  .leftSideCompany{width:150px;height:50px;}
+  .leftSideCustomer{width:150px;height:50px;}
+  .leftSideCowork{width:150px;height:50px;}
+  .leftSideProduct{width:150px;height:50px;}
+  .leftSideTextA{top:20px;}
+  .leftSideTextB{top:20px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:480px;height:854px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:854px;}
+  .contentsScroll{height:854px;}
+  .basicArea{height:854px;}
+  .companyArea{top:854px;height:854px;}
+  .productArea{top:1708px;height:854px;}
+  .customerArea{top:2562px;height:854px;}
+  .coworkArea{top:3416px;height:854px;}
+  .footerArea{top:4270px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:60px; top:750px; background: url("../img/imgBtn/360by640_facebook.png") no-repeat center;}
+  .githubBtn{left:200px; top:750px; background: url("../img/imgBtn/360by640_github.png") no-repeat center;}
+  .blogBtn{left:350px; top:750px; background: url("../img/imgBtn/360by640_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:480px; height:100px;}
+  /*width : left , height: top*/
+  .motto1{font-size:19px;left:150px;top:14px;}
+  .motto2{font-size:19px;left:150px;top:14px;}
+  .motto3{font-size:19px;left:150px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 20px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:20px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:100px;width:480px;top:-4px;}
+  .companyExmplain >span{font-size:15px;top:25px;left:8px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:450px;height:300px;left:16px;top:220px;}
+
+  /*detail information*/
+  .detailPaypulse{width:451px;height:110px;top:330px;left:13px;}
+  .detailPaypulse >span{position:relative;font-size:12px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:10px;left:8px;}
+  .find{top:10px;left:1px;}
+  .whoIsCEO{top:3px;}
+  .phone{left:20px;top:2px;}
+  .email{top:2px;}
+
+  /*product image button*/
+  .products{height:600px;top:50px}
+  .product1{left:150px;height:159px;width:159px;}
+  .product2{top:200px;left:-18px;height:159px;width:159px;}
+  .mr9270s{width:159px;height:159px; background: url("../img/imgBtn/360by640_mr9270s.png") no-repeat center;}
+  .medida{width:159px;height:159px; background: url("../img/imgBtn/360by640_medida.png") no-repeat center;}
+  .text{font-size: 13px;}
+
+  /*customer order form*/
+  .contractT1{font-size:20px; left:200px;}
+  .contractT2{left:60px;top:90px;font-size:12px;}
+  .contractForm{left:50px;top:160px; width:400px;height:400px;}
+  input[type=text]{width:400px;height:50px;font-size:6px;}
+  textarea{height:200px;}
+
+  /*cowork area*/
+  .coworkT{font-size:25px;left:180px;top:20px;}
+  .coworkImg{left:35px;top:80px;width:400px;height:310px;}
+  .coworkImg >img{width:400px;height:310px;}
+  .chooseImg{bottom:370px;left:60px;width:400px;height:80px;}
+  .chooseImg >img{width:80px;height:80px;}
+  .cleqee{top:500px;left:70px;width:300px;height:50px;font-size:10px;}
+
+  /*footer area*/
+  .footerC{font-size:12px;top:20px;left:20px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:12px;top:58px;left:70px;}
+  .terms{font-size:12px;top:58px;left:200px;}
+  .copyright{font-size:12px;top:110px;left:40px;}
+
+  /*loading bar*/
+  .loadingContain{left:140px;bottom:50px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:30px;left:180px;}
+
+  /*product contents*/
+  .productContents{width:480px;height:854px;}
+  .productScroll{height:854px;}
+
+  .productPicture{width:480px;height:854px;}
+  .productVideo{top:854px;width:480px;height:854px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:412px;height:366px;top:0px;left:0px;}
+  .pictureGrid2{width:412px;height:366px;top:366px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:240px;height:213px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:240px;}
+  .productImg3{top:213px;left:0px;}
+  .productImg4{top:213px;left:240px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:240px;height:213px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:240px;}
+  .productImg7{top:213px;left:0px;}
+  .productImg8{top:213px;left:240px;}
+
+  /*button click시 */
+  .modalImage{width:240px;height:213px; left:130px;}
+  .modalText{font-size:30px; left:200px;top:400px;}
+
+  /*product video*/
+  .productVideo{width:412px;height:732px;}
+  .playVideo{width:380px;height:400px;left:15px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:30px;left:190px;}
+}
+
+/*resolution 768 by 1024 : ipad mini, ipad*/
+@media screen and (device-width:768px) and (device-height:1024px)
+{
+  /*top button is already hide, so left side bar doesn't need */
+  .leftSideBar{display: none;}
+  /*Press acodien, show left side bar : width=> 150px*/
+  .leftSideBar{width:150px;top:100px;}
+  /*left side bar contents*/
+  .leftSideCompany{width:150px;}
+  .leftSideCustomer{width:150px;}
+  .leftSideCowork{width:150px;}
+  .leftSideProduct{width:150px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:768px;height:1024px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:1024px;}
+  .contentsScroll{height:1024px;}
+  .basicArea{height:1024px;}
+  .companyArea{top:1024px;height:1024px;}
+  .productArea{top:2048px;height:1024px;}
+  .customerArea{top:3072px;height:1024px;}
+  .coworkArea{top:4096px;height:1024px;}
+  .footerArea{top:5120px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:100px; top:900px; background: url("../img/imgBtn/600by1024_facebook.png") no-repeat center;}
+  .githubBtn{left:350px; top:900px; background: url("../img/imgBtn/600by1024_gitHub.png") no-repeat center;}
+  .blogBtn{left:600px; top:900px; background: url("../img/imgBtn/600by1024_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:768px; height:100px;}
+  /*width : left , height: top*/
+  .motto1{font-size:30px;left:320px;top:14px;}
+  .motto2{font-size:30px;left:320px;top:14px;}
+  .motto3{font-size:30px;left:320px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 20px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:20px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:100px;width:768px;top:-4px;}
+  .companyExmplain >span{font-size:15px;top:25px;left:140px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:650px;height:360px;left:60px;top:220px;}
+
+  /*detail information*/
+  .detailPaypulse{width:650px;height:190px;top:400px;left:60px;}
+  .detailPaypulse >span{position:relative;font-size:20px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:20px;left:10px;}
+  .find{top:25px;left:1px;}
+  .whoIsCEO{top:6px;}
+  .phone{left:20px;top:10px;}
+  .email{top:10px;}
+
+  /*product image button*/
+  .products{height:900px;top:40px}
+  .product1{left:200px;height:350px;width:350px;}
+  .product2{top:400px;left:-150px;height:350px;width:350px;}
+  .mr9270s{width:350px;height:350px; background: url("../img/imgBtn/600by1024_mr9270s.png") no-repeat center;}
+  .medida{width:350px;height:350px; background: url("../img/imgBtn/600by1024_medida.png") no-repeat center;}
+  .text{font-size: 30px;}
+
+  /*customer order form*/
+  .contractT1{font-size:40px; left:300px;}
+  .contractT2{left:150px;top:140px;font-size:17px;}
+  .contractForm{left:150px;top:240px; width:500px;height:350px;}
+  input[type=text]{width:500px;height:10px;font-size:10px;}
+  textarea{height:400px;}
+
+  /*cowork area*/
+  .coworkT{font-size:40px;left:300px;top:10px;}
+  .coworkImg >img{width:700px;height:400px;}
+  .coworkImg{left:30px;top:100px;width:600px;height:400px;}
+  .chooseImg{bottom:350px;left:120px;width:600px;height:150px;}
+  .chooseImg >img{width:120px;height:90px;}
+  .cleqee{top:640px;left:170px;width:400px;height:100px;font-size:20px;}
+
+  /*footer area*/
+  .footerC{font-size:15px;top:2px;left:120px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:14px;top:58px;left:70px;}
+  .terms{font-size:14px;top:58px;left:200px;}
+  .copyright{font-size: 14px;top:90px;left:150px;}
+
+  /*loading bar*/
+  .loadingContain{left:270px;bottom:300px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:35px;left:300px;}
+
+  /*product contents*/
+  .productContents{width:768px;height:1024px;}
+  .productScroll{height:1024px;}
+
+  .productPicture{width:768px;height:1024px;}
+  .productVideo{top:1024px;width:768px;height:1024px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:768px;height:512px;top:0px;left:0px;}
+  .pictureGrid2{width:768px;height:512px;top:512px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:384px;height:256px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:384px;}
+  .productImg3{top:256px;left:0px;}
+  .productImg4{top:256px;left:384px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:384px;height:256px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:384px;}
+  .productImg7{top:256px;left:0px;}
+  .productImg8{top:256px;left:384px;}
+
+  /*button click시 */
+  .modalImage{width:384px;height:256px; left:200px;}
+  .modalText{font-size:30px; left:300px;top:400px;}
+
+  /*product video*/
+  .productVideo{width:786px;height:1024px;}
+  .playVideo{width:560px;height:560px;left:100px;top:3px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:35px;left:350px;}
+
+}
+
+/*resolution 320 by 480 :iphone 4*/
+@media screen and (device-width:320px) and (device-height:480px)
+{
+  /*top button hide, acodien button show */
+  .acodiBtn{display: block! important;}
+  .topmenu{display: none ! important;}
+
+  /*Press acodien , show left side bar : width=> 100px */
+  .leftSideBar{width:150px;top:100px;height:200px;}
+  .leftSideCompany{width:150px;height:50px;}
+  .leftSideCustomer{width:150px;height:50px;}
+  .leftSideCowork{width:150px;height:50px;}
+  .leftSideProduct{width:150px;height:50px;}
+  .leftSideTextA{top:20px;}
+  .leftSideTextB{top:20px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:320px;height:480px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:480px;}
+  .contentsScroll{height:480px;}
+  .basicArea{height:480px;}
+  .companyArea{top:480px;height:480px;}
+  .productArea{top:960px;height:480px;}
+  .customerArea{top:1440px;height:480px;}
+  .coworkArea{top:1920px;height:480px;}
+  .footerArea{top:2400px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:5px; top:420px; background: url("../img/imgBtn/360by640_facebook.png") no-repeat center;}
+  .githubBtn{left:130px; top:420px; background: url("../img/imgBtn/360by640_github.png") no-repeat center;}
+  .blogBtn{left:250px; top:420px; background: url("../img/imgBtn/360by640_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:320px; height:75px;}
+  /*width : left , height: top*/
+  .motto1{font-size:19px;left:100px;top:14px;}
+  .motto2{font-size:19px;left:100px;top:14px;}
+  .motto3{font-size:19px;left:100px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 20px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:20px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:65px;width:320px;top:-4px;}
+  .companyExmplain >span{font-size:5px;top:2px;left:10px;text-align: center;}
+  .explainT{padding:2px 2px 2px 2px;}
+
+  /*google map*/
+  .addressMap{width:300px;height:160px;left:10px;top:150px;}
+
+  /*detail information*/
+  .detailPaypulse{width:315px;height:120px;top:220px;left:2px;}
+  .detailPaypulse >span{position:relative;font-size:2px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:5px 5px 5px 5px;}
+  .detailAddress{top:10px;left:8px;}
+  .find{top:10px;left:1px;}
+  .whoIsCEO{top:3px;}
+  .phone{left:20px;top:2px;}
+  .email{top:2px;}
+
+  /*product image button*/
+  .products{height:330px;top:20px}
+  .product1{left:80px;height:149px;width:149px;}
+  .product2{top:155px;left:-74px;height:149px;width:149px;}
+  .mr9270s{width:149px;height:149px; background: url("../img/imgBtn/320by480_mr9270s.png") no-repeat center;}
+  .medida{width:149px;height:149px; background: url("../img/imgBtn/320by480_medida.png") no-repeat center;}
+  .text{font-size: 13px;}
+
+  /*customer order form*/
+  .contractT1{font-size: 16px; left:130px;}
+  .contractT2{left:10px;top:90px;font-size:10px;}
+  .contractForm{left:10px;top:130px; width:290px;height:200px;}
+  input[type=text]{width:290px;height:10px;font-size:6px;}
+  textarea{height:60px;}
+
+  /*cowork area*/
+  .coworkT{font-size:20px;left:120px;top:5px;}
+  .coworkImg{left:10px;top:45px;width:300px;height:150px;}
+  .coworkImg >img{width:300px;height:150px;}
+  .chooseImg{bottom:200px;left:10px;width:300px;height:80px;}
+  .chooseImg >img{width:70px;height:80px;}
+  .cleqee{top:280px;left:20px;width:280px;height:8px;font-size:10px;}
+
+  /*footer area*/
+  .footerC{font-size:2px;top:10px;left:2px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:3px;top:58px;left:70px;}
+  .terms{font-size: 3px;top:58px;left:200px;}
+  .copyright{font-size: 3px;top:70px;left:10px;}
+
+  /*loading bar*/
+  .loadingContain{left:70px;bottom:1px;width:200px;height:100px;}
+  .loadingContain >div{height:100px;}
+
+  @-webkit-keyframes barAni1 {
+    0%, 100% {height:100px;background: #2d64FF;}
+     16.67%  {height:50px;background: #2d64FF;}
+     33.33%  {height:20px;background: #2d64FF;}
+     50%     {height:50px;background: #2d64FF;}
+     66.67%  {height:100px;background: #2d64FF;}
+     83.34%  {height:50px;background: #2d64FF;}
+  }
+
+  @keyframes barAni1 {
+    0%, 100% {height:100px;background: #2d64FF;}
+     16.67%  {height:50px;background: #2d64FF;}
+     33.33%  {height:20px;background: #2d64FF;}
+     50%     {height:50px;background: #2d64FF;}
+     66.67%  {height:100px;background: #2d64FF;}
+     83.34%  {height:50px;background: #2d64FF;}
+  }
+
+  @-webkit-keyframes barAni2 {
+    0%, 100%{height:50px; background: #5652FF;}
+     16.67% {height:100px;background: #5652FF;}
+     33.33% {height:50px;background: #5652FF;}
+     50%    {height:20px;background: #5652FF;}
+     66.67% {height:50px;background:#5652FF;}
+     83.34% {height:20px;background: #5652FF;}
+  }
+
+  @keyframes barAni2 {
+    0%, 100%{height:50px; background: #5652FF;}
+     16.67% {height:100px;background: #5652FF;}
+     33.33% {height:50px;background: #5652FF;}
+     50%    {height:20px;background: #5652FF;}
+     66.67% {height:50px;background:#5652FF;}
+     83.34% {height:20px;background: #5652FF;}
+  }
+
+  @-webkit-keyframes barAni3 {
+    0%, 100% {height:50px;background: #6F48FF;}
+     16.67%  {height:20px;background: #6F48FF;}
+     33.33%  {height:100px;background: #6F48FF;}
+     50%     {height:30px;background: #6F48FF;}
+     66.67%  {height:20px;background:#6F48FF;}
+     83.34%  {height:100px;background: #6F48FF;}
+  }
+
+  @keyframes barAni3 {
+    0%, 100% {height:50px;background: #6F48FF;}
+     16.67%  {height:20px;background: #6F48FF;}
+     33.33%  {height:100px;background: #6F48FF;}
+     50%     {height:30px;background: #6F48FF;}
+     66.67%  {height:20px;background:#6F48FF;}
+     83.34%  {height:100px;background: #6F48FF;}
+  }
+
+  @-webkit-keyframes barAni4 {
+    0%, 100% {height:20px;background: #a331FF;}
+     16.67%  {height:100px;background:#a331FF; }
+     33.33%  {height:50px;background: #a331FF;}
+     50%     {height:30px;background:#a331FF; }
+     66.67%  {height:80px;background:#a331FF;}
+     83.34%  {height:20px;background:#a331FF; }
+  }
+
+  @keyframes barAni4 {
+    0%, 100% {height:20px;background: #a331FF;}
+     16.67%  {height:100px;background:#a331FF; }
+     33.33%  {height:50px;background: #a331FF;}
+     50%     {height:30px;background:#a331FF; }
+     66.67%  {height:80px;background:#a331FF;}
+     83.34%  {height:20px;background:#a331FF; }
+  }
+
+  @-webkit-keyframes barAni5 {
+    0%, 100% {height:80px;background: #b42aFF;}
+     16.67%  {height:20px;background:#b42aFF; }
+     33.33%  {height:80px;background: #b42aFF;}
+     50%     {height:20px;background:#b42aFF; }
+     66.67%  {height:80px;background:#b42aFF;}
+     83.34%  {height:90px;background:#b42aFF; }
+  }
+
+  @keyframes barAni5 {
+    0%, 100% {height:80px;background: #b42aFF;}
+     16.67%  {height:20px;background:#b42aFF; }
+     33.33%  {height:80px;background: #b42aFF;}
+     50%     {height:20px;background:#b42aFF; }
+     66.67%  {height:80px;background:#b42aFF;}
+     83.34%  {height:90px;background:#b42aFF; }
+  }
+
+  @-webkit-keyframes barAni6 {
+    0%, 100% {height:100px;background: #c224FF;}
+     16.67%  {height:20px;background:#c224FF; }
+     33.33%  {height:100px;background: #c224FF;}
+     50%     {height:20px;background:#c224FF; }
+     66.67%  {height:100px;background:#c224FF;}
+     83.34%  {height:20px;background:#c224FF; }
+  }
+
+  @keyframes barAni6 {
+    0%, 100% {height:100px;background: #c224FF;}
+     16.67%  {height:20px;background:#c224FF; }
+     33.33%  {height:100px;background: #c224FF;}
+     50%     {height:20px;background:#c224FF; }
+     66.67%  {height:100px;background:#c224FF;}
+     83.34%  {height:20px;background:#c224FF; }
+  }
+
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:20px;left:120px;}
+
+  /*product contents*/
+  .productContents{width:320px;height:480px;}
+  .productScroll{height:480px;}
+
+  .productPicture{width:320px;height:480px;}
+  .productVideo{top:480px;width:320px;height:480px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:320px;height:240px;top:0px;left:0px;}
+  .pictureGrid2{width:320px;height:240px;top:240px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:160px;height:120px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:160px;}
+  .productImg3{top:120px;left:0px;}
+  .productImg4{top:120px;left:160px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:160px;height:120px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:160px;}
+  .productImg7{top:120px;left:0px;}
+  .productImg8{top:120px;left:160px;}
+
+  /*button click시 */
+  .modalImage{width:180px;height:160px; left:70px;}
+  .modalText{font-size:30px; left:140px;top:300px;}
+
+  /*product video*/
+  .productVideo{width:320px;height:533px;}
+  .playVideo{width:300px;height:300px;left:5px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:25px;left:130px;}
+
+}
+
+/*resolution 375 by 667 :iphone 7, iphone 8*/
+@media screen and (device-width:375px) and (device-height: 667px)
+{
+  /*top button hide, acodien button show */
+  .acodiBtn{display: block! important;}
+  .topmenu{display: none ! important;}
+
+  /*Press acodien, show left side bar : width=> 150px*/
+  .leftSideBar{width:150px;top:100px;height:200px;}
+  /*left side bar contents*/
+  .leftSideCompany{width:150px;height:50px;}
+  .leftSideCustomer{width:150px;height:50px;}
+  .leftSideCowork{width:150px;height:50px;}
+  .leftSideProduct{width:150px;height:50px;}
+  .leftSideTextA{top:20px;}
+  .leftSideTextB{top:20px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:375px;height:667px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:667px;}
+  .contentsScroll{height:667px;}
+  .basicArea{height:667px;}
+  .companyArea{top:667px;height:667px;}
+  .productArea{top:1334px;height:667px;}
+  .customerArea{top:2001px;height:667px;}
+  .coworkArea{top:2668px;height:667px;}
+  .footerArea{top:3335px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:30px; top:600px; background: url("../img/imgBtn/360by640_facebook.png") no-repeat center;}
+  .githubBtn{left:160px; top:600px; background: url("../img/imgBtn/360by640_github.png") no-repeat center;}
+  .blogBtn{left:280px; top:600px; background: url("../img/imgBtn/360by640_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:375px; height:75px;}
+  /*width : left , height: top*/
+  .motto1{font-size:19px;left:112px;top:14px;}
+  .motto2{font-size:19px;left:112px;top:14px;}
+  .motto3{font-size:19px;left:112px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 20px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:20px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:100px;width:375px;top:-4px;}
+  .companyExmplain >span{font-size:11px;top:25px;left:20px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:340px;height:200px;left:15px;top:180px;}
+
+  /*detail information*/
+  .detailPaypulse{width:340px;height:108px;top:210px;left:20px;}
+  .detailPaypulse >span{position:relative;font-size:10px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:10px;left:8px;}
+  .find{top:10px;left:1px;}
+  .whoIsCEO{top:3px;}
+  .phone{left:20px;top:2px;}
+  .email{top:2px;}
+
+  /*product image button*/
+  .products{height:330px;top:40px}
+  .product1{left:110px;height:159px;width:159px;}
+  .product2{top:180px;left:-59px;height:159px;width:159px;}
+  .mr9270s{width:159px;height:159px; background: url("../img/imgBtn/360by640_mr9270s.png") no-repeat center;}
+  .medida{width:159px;height:159px; background: url("../img/imgBtn/360by640_medida.png") no-repeat center;}
+  .text{font-size: 13px;}
+
+  /*customer order form*/
+  .contractT1{font-size: 16px; left:150px;}
+  .contractT2{left:35px;top:90px;font-size:10px;}
+  .contractForm{left:30px;top:140px; width:300px;height:240px;}
+  input[type=text]{width:300px;height:10px;font-size:6px;}
+  textarea{height:100px;}
+
+  /*cowork area*/
+  .coworkT{font-size:20px;left:150px;top:10px;}
+  .coworkImg{left:20px;top:50px;width:330px;height:300px;}
+  .coworkImg >img{width:330px;height:300px;}
+  .chooseImg{bottom:230px;left:25px;width:330px;height:80px;}
+  .chooseImg >img{width:75px;height:80px;}
+  .cleqee{top:450px;left:30px;width:300px;height:40px;font-size:10px;}
+
+  /*footer area*/
+  .footerC{font-size:3px;top:2px;left:20px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:3px;top:58px;left:70px;}
+  .terms{font-size: 3px;top:58px;left:200px;}
+  .copyright{font-size: 3px;top:70px;left:30px;}
+
+  /*loading bar*/
+  .loadingContain{left:100px;bottom:50px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:30px;left:140px;}
+
+  /*product contents*/
+  .productContents{width:375px;height:667px;}
+  .productScroll{height:667px;}
+
+  .productPicture{width:375px;height:667px;}
+  .productVideo{top:667px;width:375px;height:667px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:375px;height:334px;top:0px;left:0px;}
+  .pictureGrid2{width:375px;height:334px;top:334px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:187px;height:167px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:187px;}
+  .productImg3{top:167px;left:0px;}
+  .productImg4{top:167px;left:187px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:187px;height:167px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:187px;}
+  .productImg7{top:167px;left:0px;}
+  .productImg8{top:167px;left:187px;}
+
+  /*button click시 */
+  .modalImage{width:180px;height:160px; left:100px;}
+  .modalText{font-size:30px; left:150px;top:350px;}
+
+  /*product video*/
+  .productVideo{width:375px;height:667px;}
+  .playVideo{width:330px;height:330px;left:20px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:30px;left:140px;}
+}
+
+/*resolution 414 by 736 : iphone 7 plus, iphone 8 plus */
+@media screen and (device-width:414px) and (device-height:736px)
+{
+  /*top button hide, acodien button show */
+  .acodiBtn{display: block! important;}
+  .topmenu{display: none ! important;}
+
+  /*Press acodien, show left side bar : width=> 150px*/
+  .leftSideBar{width:150px;top:100px;height:200px;}
+  /*left side bar contents*/
+  .leftSideCompany{width:150px;height:50px;}
+  .leftSideCustomer{width:150px;height:50px;}
+  .leftSideCowork{width:150px;height:50px;}
+  .leftSideProduct{width:150px;height:50px;}
+  .leftSideTextA{top:20px;}
+  .leftSideTextB{top:20px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:414px;height:736px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:736px;}
+  .contentsScroll{height:736px;}
+  .basicArea{height:736px;}
+  .companyArea{top:736px;height:736px;}
+  .productArea{top:1472px;height:736px;}
+  .customerArea{top:2208px;height:736px;}
+  .coworkArea{top:2944px;height:736px;}
+  .footerArea{top:3680px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:40px; top:650px; background: url("../img/imgBtn/360by640_facebook.png") no-repeat center;}
+  .githubBtn{left:160px; top:650px; background: url("../img/imgBtn/360by640_github.png") no-repeat center;}
+  .blogBtn{left:290px; top:650px; background: url("../img/imgBtn/360by640_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:412px; height:100px;}
+  /*width : left , height: top*/
+  .motto1{font-size:19px;left:112px;top:14px;}
+  .motto2{font-size:19px;left:112px;top:14px;}
+  .motto3{font-size:19px;left:112px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 20px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:20px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:100px;width:412px;top:-4px;}
+  .companyExmplain >span{font-size:13px;top:25px;left:8px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:380px;height:200px;left:12px;top:220px;}
+
+  /*detail information*/
+  .detailPaypulse{width:400px;height:108px;top:230px;left:5px;}
+  .detailPaypulse >span{position:relative;font-size:10px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:10px;left:8px;}
+  .find{top:10px;left:1px;}
+  .whoIsCEO{top:3px;}
+  .phone{left:20px;top:2px;}
+  .email{top:2px;}
+
+  /*product image button*/
+  .products{height:330px;top:40px}
+  .product1{left:120px;height:159px;width:159px;}
+  .product2{top:200px;left:-45px;height:159px;width:159px;}
+  .mr9270s{width:159px;height:159px; background: url("../img/imgBtn/360by640_mr9270s.png") no-repeat center;}
+  .medida{width:159px;height:159px; background: url("../img/imgBtn/360by640_medida.png") no-repeat center;}
+  .text{font-size: 13px;}
+
+  /*customer order form*/
+  .contractT1{font-size: 18px; left:170px;}
+  .contractT2{left:50px;top:90px;font-size:10px;}
+  .contractForm{left:50px;top:140px; width:300px;height:400px;}
+  input[type=text]{width:300px;height:50px;font-size:6px;}
+  textarea{height:200px;}
+
+  /*cowork area*/
+  .coworkT{font-size:20px;left:170px;top:20px;}
+  .coworkImg{left:35px;top:80px;width:340px;height:300px;}
+  .coworkImg >img{width:340px;height:300px;}
+  .chooseImg{bottom:260px;left:45px;width:330px;height:80px;}
+  .chooseImg >img{width:75px;height:80px;}
+  .cleqee{top:480px;left:50px;width:300px;height:50px;font-size:10px;}
+
+  /*footer area*/
+  .footerC{font-size:12px;top:20px;left:20px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:12px;top:58px;left:70px;}
+  .terms{font-size:12px;top:58px;left:200px;}
+  .copyright{font-size:12px;top:110px;left:40px;}
+
+  /*loading bar*/
+  .loadingContain{left:100px;bottom:50px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:30px;left:140px;}
+
+  /*product contents*/
+  .productContents{width:414px;height:736px;}
+  .productScroll{height:736px;}
+
+  .productPicture{width:414px;height:736px;}
+  .productVideo{top:736px;width:414px;height:736px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:414px;height:368px;top:0px;left:0px;}
+  .pictureGrid2{width:414px;height:368px;top:368px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:207px;height:184px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:207px;}
+  .productImg3{top:184px;left:0px;}
+  .productImg4{top:184px;left:207px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:207px;height:184px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:207px;}
+  .productImg7{top:184px;left:0px;}
+  .productImg8{top:184px;left:207px;}
+
+  /*button click시 */
+  .modalImage{width:180px;height:160px; left:130px;}
+  .modalText{font-size:30px; left:150px;top:350px;}
+
+  /*product video*/
+  .productVideo{width:414px;height:736px;}
+  .playVideo{width:380px;height:400px;left:15px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:30px;left:160px;}
+}
+
+/*resolution 375 by 812 : iphone X*/
+@media screen and (device-width:375px) and (device-height:812px)
+{
+  /*top button hide, acodien button show */
+  .acodiBtn{display: block! important;}
+  .topmenu{display: none ! important;}
+
+  /*Press acodien, show left side bar : width=> 150px*/
+  .leftSideBar{width:150px;top:100px;height:200px;}
+  /*left side bar contents*/
+  .leftSideCompany{width:150px;height:50px;}
+  .leftSideCustomer{width:150px;height:50px;}
+  .leftSideCowork{width:150px;height:50px;}
+  .leftSideProduct{width:150px;height:50px;}
+  .leftSideTextA{top:20px;}
+  .leftSideTextB{top:20px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:375px;height:812px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:812px;}
+  .contentsScroll{height:812px;}
+  .basicArea{height:812px;}
+  .companyArea{top:812px;height:812px;}
+  .productArea{top:1624px;height:812px;}
+  .customerArea{top:2436px;height:812px;}
+  .coworkArea{top:3248px;height:812px;}
+  .footerArea{top:4060px;height:335px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:30px; top:720px; background: url("../img/imgBtn/360by640_facebook.png") no-repeat center;}
+  .githubBtn{left:160px; top:720px; background: url("../img/imgBtn/360by640_github.png") no-repeat center;}
+  .blogBtn{left:280px; top:720px; background: url("../img/imgBtn/360by640_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:375px; height:75px;}
+  /*width : left , height: top*/
+  .motto1{font-size:20px;left:112px;top:14px;}
+  .motto2{font-size:20px;left:112px;top:14px;}
+  .motto3{font-size:20px;left:112px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 20px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:20px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:100px;width:375px;top:-4px;}
+  .companyExmplain >span{font-size:11px;top:25px;left:20px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:340px;height:200px;left:15px;top:200px;}
+
+  /*detail information*/
+  .detailPaypulse{width:340px;height:118px;top:240px;left:20px;}
+  .detailPaypulse >span{position:relative;font-size:10px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:10px;left:8px;}
+  .find{top:10px;left:1px;}
+  .whoIsCEO{top:3px;}
+  .phone{left:20px;top:2px;}
+  .email{top:2px;}
+
+  /*product image button*/
+  .products{height:330px;top:40px}
+  .product1{left:110px;height:159px;width:159px;}
+  .product2{top:200px;left:-59px;height:159px;width:159px;}
+  .mr9270s{width:159px;height:159px; background: url("../img/imgBtn/360by640_mr9270s.png") no-repeat center;}
+  .medida{width:159px;height:159px; background: url("../img/imgBtn/360by640_medida.png") no-repeat center;}
+  .text{font-size: 13px;}
+
+  /*customer order form*/
+  .contractT1{font-size: 16px; left:150px;}
+  .contractT2{left:35px;top:90px;font-size:10px;}
+  .contractForm{left:40px;top:160px; width:300px;height:450px;}
+  input[type=text]{width:300px;height:10px;font-size:6px;}
+  textarea{height:300px;}
+
+  /*cowork area*/
+  .coworkT{font-size:20px;left:150px;top:10px;}
+  .coworkImg{left:20px;top:50px;width:330px;height:300px;}
+  .coworkImg >img{width:330px;height:300px;}
+  .chooseImg{bottom:370px;left:25px;width:330px;height:80px;}
+  .chooseImg >img{width:75px;height:80px;}
+  .cleqee{top:450px;left:30px;width:300px;height:40px;font-size:10px;}
+
+  /*footer area*/
+  .footerC{font-size:3px;top:2px;left:20px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:3px;top:58px;left:70px;}
+  .terms{font-size: 3px;top:58px;left:200px;}
+  .copyright{font-size: 3px;top:70px;left:30px;}
+
+  /*loading bar*/
+  .loadingContain{left:100px;bottom:50px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:30px;left:140px;}
+
+  /*product contents*/
+  .productContents{width:375px;height:812px;}
+  .productScroll{height:812px;}
+
+  .productPicture{width:375px;height:812px;}
+  .productVideo{top:812px;width:375px;height:812px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:375px;height:406px;top:0px;left:0px;}
+  .pictureGrid2{width:375px;height:406px;top:406px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:187px;height:203px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:187px;}
+  .productImg3{top:203px;left:0px;}
+  .productImg4{top:203px;left:187px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:187px;height:203px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:187px;}
+  .productImg7{top:203px;left:0px;}
+  .productImg8{top:203px;left:187px;}
+
+  /*button click시 */
+  .modalImage{width:180px;height:160px; left:100px;}
+  .modalText{font-size:30px; left:150px;top:350px;}
+
+  /*product video*/
+  .productVideo{width:375px;height:812px;}
+  .playVideo{width:330px;height:330px;left:20px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:30px;left:140px;}
+
+
+
+}
+
+/*resoultion 1024 by 1366:iphone pro*/
+@media screen and (device-width:1024px) and (device-height:1366px)
+{
+  /*top button is already hide, so left side bar doesn't need */
+  .leftSideBar{display: none;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:1024px;height:1366px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:1366px;}
+  .contentsScroll{height:1366px;}
+  .basicArea{height:1366px;}
+  .companyArea{top:1366px;height:1366px;}
+  .productArea{top:2732px;height:1366px;}
+  .customerArea{top:4098px;height:1366px;}
+  .coworkArea{top:5464px;height:1366px;}
+  .footerArea{top:6830px;height:350px;}
+
+  /*social button height: top , width : right/left*/
+
+  .facebookBtn{top:1200px;}
+  .githubBtn{top:1200px;}
+  .blogBtn{top:1200px;}
+
+  /*company area part*/
+  .companyMotto {width:1024px;}
+  /*width : left , height: top*/
+  .motto1{left:450px;top:14px;}
+  .motto2{left:450px;top:14px;}
+  .motto3{left:450px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 30px; top:-2px; opacity: 1} to{font-size: 50px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:30px; top:-2px; opacity:1} to{ font-size:50px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:200px;width:1024px;top:-4px;}
+  .companyExmplain >span{font-size:30px;top:60px;left:70px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:900px;height:500px;left:60px;top:370px;}
+
+  /*detail information*/
+  .detailPaypulse{width:900px;height:200px;top:530px;left:60px;}
+  .detailPaypulse >span{position:relative;font-size:25px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:20px;left:10px;}
+  .find{top:25px;left:1px;}
+  .whoIsCEO{top:6px;}
+  .phone{left:20px;top:10px;}
+  .email{top:10px;}
+
+  /*product image button*/
+  .products{height:900px;top:300px}
+  .product1{left:150px;height:350px;width:350px;}
+  .product2{top:5px;left:170px;height:350px;width:350px;}
+  .mr9270s{width:350px;height:350px; background: url("../img/imgBtn/600by1024_mr9270s.png") no-repeat center;}
+  .medida{width:350px;height:350px; background: url("../img/imgBtn/600by1024_medida.png") no-repeat center;}
+  .text{font-size: 30px;}
+
+  /*customer order form*/
+  .contractT1{font-size:50px; left:400px;}
+  .contractT2{left:55px;top:140px;font-size:30px;}
+  .contractForm{left:50px;top:280px; width:900px;height:700px;}
+  input[type=text]{width:900px;height:30px;font-size:30px;}
+  textarea{height:600px;}
+
+  /*cowork area*/
+  .coworkT{font-size:50px;left:400px;top:10px;}
+  .coworkImg{left:60px;top:100px;width:900px;height:700px;}
+  .coworkImg >img{width:900px;height:700px;}
+  .chooseImg{bottom:350px;left:65px;width:900px;height:200px;}
+  .chooseImg >img{width:220px;height:200px;}
+  .cleqee{top:1060px;left:50px;width:550px;height:100px;font-size:20px;}
+
+  /*footer area*/
+  .footerC{font-size:18px;top:10px;left:60px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:18px;top:58px;left:70px;}
+  .terms{font-size:18px;top:58px;left:200px;}
+  .copyright{font-size:18px;top:150px;left:80px;}
+
+  /*loading bar*/
+  .loadingContain{left:440px;bottom:300px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:40px;left:440px;}
+
+  /*product contents*/
+
+  .productContents{width:1024px;height:1366px;}
+  .productScroll{height:1366px;}
+
+  .productPicture{width:1024px;height:1366px;}
+  .productVideo{top:1366px;width:1024px;height:1366px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:1024px;height:683px;top:0px;left:0px;}
+  .pictureGrid2{width:1024px;height:683px;top:683px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:512px;height:341px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:512px;}
+  .productImg3{top:341px;left:0px;}
+  .productImg4{top:341px;left:512px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:512px;height:341px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:512px;}
+  .productImg7{top:341px;left:0px;}
+  .productImg8{top:341px;left:512px;}
+
+  /*button click시 */
+  .modalImage{width:512px;height:341px; left:300px;}
+  .modalText{font-size:50px; left:350px;top:450px;}
+
+  /*product video*/
+  .productVideo{width:1024px;height:1366px;}
+  .playVideo{width:800px;height:800px;left:110px;top:3px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:35px;left:440px;}
+
+}
+
+/*samsung galaxy s1,2 , google nexus s, one*/
+@media screen and (device-width:400px) and (device-height:800px)
+{
+  /*top button hide, acodien button show */
+  .acodiBtn{display: block! important;}
+  .topmenu{display: none ! important;}
+
+  /*Press acodien, show left side bar : width=> 150px*/
+  .leftSideBar{width:150px;top:100px; height:200px;}
+  /*left side bar contents*/
+  .leftSideCompany{width:150px;height:50px;}
+  .leftSideCustomer{width:150px;height:50px;}
+  .leftSideCowork{width:150px;height:50px;}
+  .leftSideProduct{width:150px;height:50px;}
+  .leftSideTextA{top:20px;}
+  .leftSideTextB{top:20px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:400px;height:800px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:800px;}
+  .contentsScroll{height:800px;}
+  .basicArea{height:800px;}
+  .companyArea{top:800px;height:800px;}
+  .productArea{top:1600px;height:800px;}
+  .customerArea{top:2400px;height:800px;}
+  .coworkArea{top:3200px;height:800px;}
+  .footerArea{top:4000px;height:280px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:40px; top:700px; background: url("../img/imgBtn/320_facebook.png") no-repeat center;}
+  .githubBtn{left:170px; top:700px; background: url("../img/imgBtn/320_github.png") no-repeat center;}
+  .blogBtn{left:290px; top:700px; background: url("../img/imgBtn/320_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:400px; height:75px;}
+  /*width : left , height: top*/
+  .motto1{font-size:19px;left:112px;top:14px;}
+  .motto2{font-size:19px;left:112px;top:14px;}
+  .motto3{font-size:19px;left:112px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 20px; top:-2px; opacity: 1} to{font-size: 40px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:20px; top:-2px; opacity:1} to{ font-size:40px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:100px;width:400px;top:-4px;}
+  .companyExmplain >span{font-size:12px;top:25px;left:20px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:360px;height:200px;left:20px;top:220px;}
+
+  /*detail information*/
+  .detailPaypulse{width:360px;height:100px;top:250px;left:20px;}
+  .detailPaypulse >span{position:relative;font-size:10px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:10px;left:8px;}
+  .find{top:10px;left:1px;}
+  .whoIsCEO{top:3px;}
+  .phone{left:20px;top:2px;}
+  .email{top:2px;}
+
+  /*product image button*/
+  .products{height:330px;top:110px}
+  .product1{left:130px;height:149px;width:149px;}
+  .product2{top:170px;left:-26px;height:149px;width:149px;}
+  .mr9270s{width:149px;height:149px; background: url("../img/imgBtn/320by480_mr9270s.png") no-repeat center;}
+  .medida{width:149px;height:149px; background: url("../img/imgBtn/320by480_medida.png") no-repeat center;}
+  .text{font-size: 13px;}
+
+  /*customer order form*/
+  .contractT1{font-size:20px; left:150px;}
+  .contractT2{left:30px;top:90px;font-size:12px;}
+  .contractForm{left:38px;top:150px; width:300px;height:450px;}
+  input[type=text]{width:300px;height:10px;font-size:6px;}
+  textarea{height:300px;}
+
+  /*cowork area*/
+  .coworkT{font-size:20px;left:160px;top:10px;}
+  .coworkImg{left:20px;top:50px;width:360px;height:300px;}
+  .coworkImg >img{width:360px;height:300px;}
+  .chooseImg{bottom:330px;left:34px;width:330px;height:100px;}
+  .chooseImg >img{width:75px;height:100px;}
+  .cleqee{top:500px;left:28px;width:350px;height:50px;font-size:20px;}
+
+  /*footer area*/
+  .footerC{font-size:3px;top:2px;left:30px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:3px;top:58px;left:70px;}
+  .terms{font-size: 3px;top:58px;left:200px;}
+  .copyright{font-size: 3px;top:70px;left:30px;}
+
+  /*loading bar*/
+  .loadingContain{left:100px;bottom:50px;width:200px;height:150px;}
+  .loadingContain >div{height:150px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:30px;left:140px;}
+
+  /*product contents*/
+  .productContents{width:400px;height:800px;}
+  .productScroll{height:800px;}
+
+  .productPicture{width:400px;height:800px;}
+  .productVideo{top:800px;width:400px;height:800px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:400px;height:400px;top:0px;left:0px;}
+  .pictureGrid2{width:400px;height:400px;top:400px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:200px;height:200px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:200px;}
+  .productImg3{top:200px;left:0px;}
+  .productImg4{top:200px;left:200px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:200px;height:200px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:200px;}
+  .productImg7{top:200px;left:0px;}
+  .productImg8{top:200px;left:200px;}
+
+  /*button click시 */
+  .modalImage{width:200px;height:200px; left:100px;}
+  .modalText{font-size:30px; left:150px;top:350px;}
+
+  /*product video*/
+  .productVideo{width:400px;height:800px;}
+  .playVideo{width:330px;height:330px;left:30px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:30px;left:140px;}
+
+
+}
+
+/*Apple iphone5*/
+@media screen and (device-width:640px) and (device-height:1136px)
+{
+
+  /*top button hide, acodien button show */
+  .acodiBtn{display: block! important;}
+  .topmenu{display: none ! important;}
+
+  /*Press acodien, show left side bar : width=> 150px*/
+  .leftSideBar{width:150px;top:100px;height:200px;}
+  /*left side bar contents*/
+  .leftSideCompany{width:150px;height:50px;}
+  .leftSideCustomer{width:150px;height:50px;}
+  .leftSideCowork{width:150px;height:50px;}
+  .leftSideProduct{width:150px;height:50px;}
+  .leftSideTextA{top:20px;}
+  .leftSideTextB{top:20px;}
+
+  /*image : width, height 조절*/
+  .imageFile{width:640px;height:1136px;}
+
+  /*layout height 관련 처리*/
+  .contentsArea{height:1136px;}
+  .contentsScroll{height:1136px;}
+  .basicArea{height:1136px;}
+  .companyArea{top:1136px;height:1136px;}
+  .productArea{top:2272px;height:1136px;}
+  .customerArea{top:3408px;height:1136px;}
+  .coworkArea{top:4544px;height:1136px;}
+  .footerArea{top:5680px;height:342px;}
+
+  /*social button height: top , width : right/left*/
+  .facebookBtn{left:550px; top:150px;  background: url("../img/imgBtn/360by640_facebook.png") no-repeat center;}
+  .githubBtn{left:550px; top:220px; background: url("../img/imgBtn/360by640_github.png") no-repeat center;}
+  .blogBtn{left:550px; top:280px;  background: url("../img/imgBtn/360by640_blog.png") no-repeat center;}
+
+  /*company area part*/
+  .companyMotto {width:640px; height:60px;}
+  /*width : left , height: top*/
+  .motto1{font-size:19px;left:280px;top:14px;}
+  .motto2{font-size:19px;left:280px;top:14px;}
+  .motto3{font-size:19px;left:280px;top:14px;}
+  /*text animation keyframe*/
+  @-webkit-keyframes textAni{from{font-size: 10px; top:-2px; opacity: 1} to{font-size: 20px; top: 20px; opacity: 0}}
+  @keyframes textAni{from{font-size:10px; top:-2px; opacity:1} to{ font-size:20px; top:20px; opacity: 0}}
+
+  .companyExmplain{height:60px;width:640px;top:-4px;}
+  .companyExmplain >span{font-size:10px;top:10px;left:160px;text-align: center;}
+  .explainT{padding:10px 10px 10px 10px;}
+
+  /*google map*/
+  .addressMap{width:200px;height:200px;left:20px;top:150px;}
+
+  /*detail information*/
+  .detailPaypulse{width:330px;height:108px;top:80px;left:230px;}
+  .detailPaypulse >span{position:relative;font-size:2px; text-align:left;
+  font-weight: bold; color: #757575;
+  padding:10px 10px 10px 10px;}
+  .detailAddress{top:10px;left:8px;}
+  .find{top:10px;left:1px;}
+  .whoIsCEO{top:3px;}
+  .phone{left:20px;top:2px;}
+  .email{top:2px;}
+
+  /*product image button*/
+  .products{height:330px;top:40px}
+  .product1{left:100px;height:159px;width:159px;}
+  .product2{left:200px;height:159px;width:159px;}
+  .mr9270s{width:159px;height:159px; background: url("../img/imgBtn/360by640_mr9270s.png") no-repeat center;}
+  .medida{width:159px;height:159px; background: url("../img/imgBtn/360by640_medida.png") no-repeat center;}
+  .text{font-size: 13px;}
+
+  /*customer order form*/
+  .contractT1{font-size: 16px; left:300px;top:10px;}
+  .contractT2{left:100px;top:40px;font-size:15px;}
+  .contractForm{left:100px;top:90px; width:450px;height:100px;}
+  input[type=text]{width:450px;height:10px;font-size:6px;}
+  textarea{height:50px;}
+
+  /*cowork area*/
+  .coworkT{font-size:20px;left:300px;top:10px;}
+  .coworkImg{left:20px;top:50px;width:500px;height:200px;}
+  .coworkImg >img{width:500px;height:200px;}
+  .chooseImg{bottom:50px;left:60px;width:400px;height:50px;}
+  .chooseImg >img{width:90px;height:50px;}
+  .cleqee{top:310px;left:100px;width:300px;height:20px;font-size:10px;}
+
+  /*footer area*/
+  .footerC{font-size:10px;top:20px;left:150px;padding:2px 2px 2px 2px;}
+  .privacy{font-size:10px;top:58px;left:70px;}
+  .terms{font-size:10px;top:58px;left:300px;}
+  .copyright{font-size:10px;top:104px;left:150px;}
+
+  /*loading bar*/
+  .loadingContain{left:200px;bottom:1px;width:100px;height:100px;}
+  .loadingContain >div{height:100px;bottom:10px;}
+
+  /**product page**/
+  .topbar{height:100px;}
+  .gotoIndex{top:25px;}
+  .productText{font-size:30px;left:300px;}
+
+  /*product contents*/
+  .productContents{width:640px;height:360px;}
+  .productScroll{height:360px;}
+
+  .productPicture{width:640px;height:360px;}
+  .productVideo{top:360px;width:640px;height:360px;}
+
+  /*picture grid*/
+  .pictureGrid1{width:640px;height:180px;top:0px;left:0px;}
+  .pictureGrid2{width:640px;height:180px;top:180px;left:0px;}
+  /*Grid image Button*/
+  /*Grid1*/
+  .pictureGrid1 >button{width:320px;height:90px;}
+  .productImg1{top:0px;left:0px;}
+  .productImg2{top:0px;left:320px;}
+  .productImg3{top:90px;left:0px;}
+  .productImg4{top:90px;left:320px;}
+  /*Grid2*/
+  .pictureGrid2 >button{width:320px;height:90px;}
+  .productImg5{top:0px;left:0px;}
+  .productImg6{top:0px;left:320px;}
+  .productImg7{top:90px;left:0px;}
+  .productImg8{top:90px;left:320px;}
+
+  /*button click시 */
+  .modalImage{width:180px;height:160px; left:250px;top:50px;}
+  .modalText{font-size:30px; left:250px;top:250px;}
+
+  /*product video*/
+  .productVideo{width:640px;height:360px;}
+  .playVideo{width:500px;height:250px;left:60px;top:1px;}
+
+  /*topbar subject*/
+  .topSubject{font-size:30px;left:280px;}
+
+
+}
+
+/*samsung galaxy s2HD, s3, note2 , LG OptimusG, Google galaxy nexus*/
+@media screen and (device-width:720px) and (device-height:1280px)
+{
+
+}
+
+/*Apple iphone6*/
+@media screen and (device-width:750px) and (device-height:1334px)
+{
+
+}
+
+/* Google galaxy nexus4 */
+@media screen and (device-width:768px) and (device-height:1080px)
+{
+
+}
+
+/*samsung galaxy s4/s5, note3, note2 , LG OptimusG pro, LG G2,Google nexus 5*/
+@media screen and (device-width:1080px) and (device-height:1920px)
+{
+
+}
+
+
+/*LG G패드 8.3,google nexus7*/
+@media screen and (device-width:1200px) and (device-height:1920px)
+{
+
+}
+
+/*Apple iphone+*/
+@media screen and (device-width:1242px) and (device-height:2208px)
+{
+
+}
+
+
+/*samsung galaxy s6, note4 , LG G3, LG G4*/
+@media screen and (device-width:1440px) and (device-height:2560px)
+{
+
+}
+
+/*apple ipad mini, air2*/
+@media screen and (device-width:1536px) and (device-height:2048px)
+{
+
+}
+
+/*samsung galaxy tabS,  Google nexus10*/
+@media screen and (device-width:1600px) and (device-height:2560px)
+{
+
+}
